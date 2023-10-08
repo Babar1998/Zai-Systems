@@ -20,7 +20,7 @@ Widget hcmCard({
         children: <Widget>[
           title.text.size(header).fontFamily(bold).color(mehroonColor).make(),
           5.heightBox,
-          text.text.size(16).black.justify.make(),
+          text.text.size(16).black.make(),
         ],
       ).box.width(double.infinity).padding(const EdgeInsets.all(20)).make(),
     ],

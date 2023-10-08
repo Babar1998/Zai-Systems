@@ -5,7 +5,7 @@ Widget impulseDescription() {
     children: <Widget>[
       impulseHCM.text.size(heading).color(mehroonColor).fontFamily(bold).make(),
       10.heightBox,
-      impulseHCMDesc.text.size(text).justify.make(),
+      impulseHCMDesc.text.size(text).make(),
     ],
   ).box.white.padding(const EdgeInsets.all(16)).make();
 }
