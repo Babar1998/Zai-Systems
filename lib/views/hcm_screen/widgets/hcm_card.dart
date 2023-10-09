@@ -4,7 +4,6 @@ Widget hcmCard({
   required String decorationImg,
   required String title,
   required String text,
-  required Function() onClick,
 }) {
   return Column(
     mainAxisAlignment: MainAxisAlignment.start,
@@ -29,6 +28,5 @@ Widget hcmCard({
       .white
       .margin(const EdgeInsets.symmetric(vertical: 5))
       .outerShadow
-      .make()
-      .onTap(onClick);
+      .make();
 }
