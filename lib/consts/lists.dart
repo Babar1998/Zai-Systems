@@ -502,6 +502,13 @@ const letterFormsList = [
   CardItem(unlimitedLetters, unlimitedLettersDesc, imgOfficial),
 ];
 
+// EmployeeSelfService
+const empSelfList = [
+  CardItem(TextEditor, TextEditorDesc, ""),
+  CardItem(ReadyToUseForms, ReadyToUseFormsDesc, ""),
+  CardItem(UnlimitedLetters, UnlimitedLettersDesc, ""),
+];
+
 // Contact
 const contactList = [
   CardItem(companyEmailText, companyEmail, ""),

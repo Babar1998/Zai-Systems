@@ -194,6 +194,20 @@ const unlimitedLetters = "Unlimited Official Letters";
 const unlimitedLettersDesc =
     "Set free your creativity and generate unlimited official letters with Impulse HCM. Assign a unique name to each letter and specify the required fields such as employee name, salary information, job details, and more.";
 
+// ! --------------------------- HCM Letter and Forms Sectio  --------------
+const impulseEmpSelfService = "Simplifying Letters & Forms for HR";
+const impulseEmpSelfServiceDesc =
+    "Create, edit, and design HR forms and official letters with the smart capabilities of Impulse HCM.";
+const TextEditor = "Text Editor";
+const TextEditorDesc =
+    "Our robust text editor allows you to create and design official letters and forms with ease. Set fields such as employee name, job information, salary details, and contract data, which are automatically replaced by Impulse HCM.";
+const ReadyToUseForms = "Ready-to-Use HR Forms";
+const ReadyToUseFormsDesc =
+    "Discover a range of pre-designed HR forms at your fingertips, ready for customization. Whether it's contracted, service certificates, end-of-service settlements, warnings, notices, or more, Impulse HCM offers editable templates to streamline your HR processes.";
+const UnlimitedLetters = "Unlimited Official Letters";
+const UnlimitedLettersDesc =
+    "Set free your creativity and generate unlimited official letters with Impulse HCM. Assign a unique name to each letter and specify the required fields such as employee name, salary information, job details, and more.";
+
 // ! ---------------------------- Company Data -----------------------------
 const welcome = "Welcome to";
 const companyFullName = "ZAI SYSTEMS (SMC-PRIVATE) LIMITED";

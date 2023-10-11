@@ -18,12 +18,12 @@ class EmployeeServiceScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Image.asset(imgPayroll),
+              Image.asset(imgselfService),
               customDescription(
-                title: impulseHCMPayroll,
-                desc: impulseHCMPayrollDesc,
+                title: impulseEmpSelfService,
+                desc: impulseEmpSelfServiceDesc,
               ),
-              hcmSectionBuilder(list: payrollList),
+              hcmSectionBuilder(list: empSelfList),
               20.heightBox,
               requestDemo(),
             ],
