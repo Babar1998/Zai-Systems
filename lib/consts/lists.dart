@@ -504,9 +504,12 @@ const letterFormsList = [
 
 // EmployeeSelfService
 const empSelfList = [
-  CardItem(TextEditor, TextEditorDesc, ""),
-  CardItem(ReadyToUseForms, ReadyToUseFormsDesc, ""),
-  CardItem(UnlimitedLetters, UnlimitedLettersDesc, ""),
+  CardItem(empLeave, empLeaveDesc, ""),
+  CardItem(payrollInfo, payrollInfoDesc, ""),
+  CardItem(perfReview, perfReviewDesc, ""),
+  CardItem(trainDev, trainDevDesc, ""),
+  CardItem(benefitsEnroll, benefitsEnrollDesc, ""),
+  CardItem(feedback, feedbackDesc, ""),
 ];
 
 // Contact

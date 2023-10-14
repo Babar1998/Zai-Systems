@@ -180,7 +180,7 @@ const deviceInt = "Device Integration";
 const deviceIntDesc =
     "Integrate your fingerprint devices with Impulse HCM effortlessly. Our user-friendly platform fetches records and performs the necessary calculations for you, saving you valuable time and effort.";
 
-// ! --------------------------- HCM Letter and Forms Sectio  --------------
+// ! --------------------------- HCM Letter and Forms Section  --------------
 const impulseHCMLetter = "Simplifying Letters & Forms for HR";
 const impulseHCMLetterDesc =
     "Create, edit, and design HR forms and official letters with the smart capabilities of Impulse HCM.";
@@ -194,19 +194,28 @@ const unlimitedLetters = "Unlimited Official Letters";
 const unlimitedLettersDesc =
     "Set free your creativity and generate unlimited official letters with Impulse HCM. Assign a unique name to each letter and specify the required fields such as employee name, salary information, job details, and more.";
 
-// ! --------------------------- HCM Letter and Forms Sectio  --------------
-const impulseEmpSelfService = "Simplifying Letters & Forms for HR";
+// ! --------------------------- HCM Employee Self Service Section  --------------
+const impulseEmpSelfService = "Empower employees to take control";
 const impulseEmpSelfServiceDesc =
-    "Create, edit, and design HR forms and official letters with the smart capabilities of Impulse HCM.";
-const TextEditor = "Text Editor";
-const TextEditorDesc =
-    "Our robust text editor allows you to create and design official letters and forms with ease. Set fields such as employee name, job information, salary details, and contract data, which are automatically replaced by Impulse HCM.";
-const ReadyToUseForms = "Ready-to-Use HR Forms";
-const ReadyToUseFormsDesc =
-    "Discover a range of pre-designed HR forms at your fingertips, ready for customization. Whether it's contracted, service certificates, end-of-service settlements, warnings, notices, or more, Impulse HCM offers editable templates to streamline your HR processes.";
-const UnlimitedLetters = "Unlimited Official Letters";
-const UnlimitedLettersDesc =
-    "Set free your creativity and generate unlimited official letters with Impulse HCM. Assign a unique name to each letter and specify the required fields such as employee name, salary information, job details, and more.";
+    "Empower your employees to take control of their HR-related tasks and information with our Employee Self-Service portal. This feature-rich solution enhances the employee experience and reduces the administrative burden on HR teams. ";
+const empLeave = "Leave Management";
+const empLeaveDesc =
+    "Employees can request and manage their time off, and supervisors can easily approve or deny requests.";
+const payrollInfo = "Payroll Information";
+const payrollInfoDesc =
+    "Access to payroll records, including pay stubs, tax information, and direct deposit details.";
+const perfReview = "Performance Reviews";
+const perfReviewDesc =
+    "Employees can self-schedule performance evaluations, view their performance history, and set development goals.";
+const trainDev = "Training and Development";
+const trainDevDesc =
+    "Access to training materials, courses, and opportunities for personal and professional growth.";
+const benefitsEnroll = "Benefits Enrollment";
+const benefitsEnrollDesc =
+    "Manage healthcare, retirement plans, and other benefits with ease, making open enrollment and life events a smooth process.";
+const feedback = "Feedback and Surveys";
+const feedbackDesc =
+    "Gather employee feedback, conduct surveys, and gauge employee satisfaction to drive continuous improvement.";
 
 // ! ---------------------------- Company Data -----------------------------
 const welcome = "Welcome to";

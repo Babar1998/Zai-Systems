@@ -1,8 +1,9 @@
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/views/home_screen/widgets/custom_swiper.dart';
 import 'package:zaisystems/widget_common/custom_button.dart';
+import 'package:video_player/video_player.dart';
 
-Widget servicesAndCourses({
+Widget videoPlayer({
   required BuildContext context,
   final controller,
 }) {
