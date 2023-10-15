@@ -1,10 +1,26 @@
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/models/member.dart';
 import 'package:zaisystems/widget_common/outlined_button.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'dart:io';
+
+Future<void> launchLinkedIn(String lnUrl, String lnWebUrl) async {
+  try {
+    bool launched = await launch(lnUrl, forceSafariVC: false);
+    print("Launched Native app $launched");
+
+    if (!launched) {
+      await launch(lnWebUrl, forceSafariVC: false);
+      print("Launched browser $launched");
+    }
+  } catch (e) {
+    await launch(lnWebUrl, forceSafariVC: false);
+    print("Inside catch");
+  }
+}
 
 Widget memberCard({
   required Member member,
-  required Function(int) onBtnClick,
   required Function() onCardClick,
 }) {
   return Row(
@@ -43,7 +59,15 @@ Widget memberCard({
               children: <Widget>[
                 Expanded(
                   child: outLinedButton(
-                    onPress: () => onBtnClick(1),
+                    onPress: () {
+                      if (Platform.isAndroid) {
+                        var lnUrl = member.profile; //for android
+                        launchLinkedIn(lnUrl, member.profile.toString());
+                      } else if (Platform.isIOS) {
+                        var lnUrl = member.profile; //for IOS
+                        launchLinkedIn(lnUrl, member.profile.toString());
+                      }
+                    },
                     title: "LinkedIn",
                     textColor: mehroonColor,
                     outlineColor: mehroonColor,

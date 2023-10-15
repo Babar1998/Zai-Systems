@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "382123839385-v38n9ip4aa764afvvmj2vrar2ro80019.apps.googleusercontent.com",
+          "client_id": "382123839385-e5v171s8f8pae4hts44igdm94diqoqq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zaisystems.zaisystems",
+            "certificate_hash": "51f6e61e9b769b8f7edc2effb9bbfd89dd2e782d"
+          }
+        },
+        {
+          "client_id": "382123839385-k1n0mlrsejnti4791ge05a94ou23gfp8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "382123839385-v38n9ip4aa764afvvmj2vrar2ro80019.apps.googleusercontent.com",
+              "client_id": "382123839385-k1n0mlrsejnti4791ge05a94ou23gfp8.apps.googleusercontent.com",
               "client_type": 3
             },
             {

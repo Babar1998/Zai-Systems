@@ -14,7 +14,6 @@ class TeamScreen extends StatelessWidget {
         final member = teamList[index];
         return memberCard(
           member: member,
-          onBtnClick: (platform) => () {},
           onCardClick: () => memberDetailModel(
             context: context,
             member: member,
