@@ -371,7 +371,7 @@ const teamList = [
     introduction: "Graphic Designer at Zai Systems",
     description:
         "Müneeb Naveed, our skilled graphic designer, incorporates dynamic spark effects into his illustrations and graphics, consistently earning admiration for his high-quality creations.",
-    profile: "",
+    profile: "https://www.linkedin.com/in/muneeb-naveed",
   ),
   Member(
     name: 'Shehr Bano',
@@ -388,7 +388,7 @@ const teamList = [
     introduction: "Graphics Lead at Zai Systems",
     description:
         "Having accumulated 2 years of experience, Miss Hareem Junaid stands as a committed and enthusiastic graphic designer and video editor (also serving as a team lead) at Zai Systems. Her exceptional artistic prowess, along with her role as a managerial figure, quality of her work and her leadership persona.",
-    profile: "",
+    profile: "http://www.linkedin.com/in/hareem-junaid",
   ),
   Member(
     name: 'Babar Arif',
@@ -415,7 +415,7 @@ const teamList = [
     introduction: "Graphic Designer at Zai Systems",
     description:
         "Ali Shoaib, an immensely passionate and industrious graphic designer, channels his dedication into his designs, establishing himself as a standout contributor at Zai Systems.",
-    profile: "",
+    profile: "https://www.linkedin.com/in/ali-s-1b0171250",
   ),
   Member(
     name: 'Mariyam Ishfaq',
@@ -443,6 +443,24 @@ const teamList = [
     description:
         "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
     profile: "",
+  ),
+  Member(
+    name: 'Memoona Fatima',
+    position: 'Senior Graphic Designer',
+    image: shoaib,
+    introduction: "Senior Graphic Designer at Zai Systems",
+    description:
+        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
+    profile: "https://www.linkedin.com/in/memoona-fatima-30619a253/",
+  ),
+  Member(
+    name: 'Hafeez Khan',
+    position: 'Senior Graphic Designer',
+    image: shoaib,
+    introduction: "Senior Graphic Designer at Zai Systems",
+    description:
+        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
+    profile: "https://www.linkedin.com/in/mhafeezkhan",
   ),
 ];
 

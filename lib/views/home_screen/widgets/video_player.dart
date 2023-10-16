@@ -1,36 +1,49 @@
-import 'package:zaisystems/consts/imports.dart';
-import 'package:zaisystems/views/home_screen/widgets/custom_swiper.dart';
-import 'package:zaisystems/widget_common/custom_button.dart';
-import 'package:video_player/video_player.dart';
+// ignore_for_file: unused_local_variable
 
-Widget videoPlayer({
-  required BuildContext context,
-  final controller,
-}) {
-  return Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          services.text.size(24).fontFamily(bold).color(mehroonColor).make(),
-          5.heightBox,
-          servicesProvide.text.size(16).justify.make(),
+import 'package:flutter/material.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+
+class YoutubePlayerCustomSubtitle extends StatefulWidget {
+  final String videoId = 'Wu44C8tiE5E';
+  const YoutubePlayerCustomSubtitle({super.key});
+
+  @override
+  State<YoutubePlayerCustomSubtitle> createState() =>
+      _YoutubePlayerCustomSubtitleState();
+}
+
+class _YoutubePlayerCustomSubtitleState
+    extends State<YoutubePlayerCustomSubtitle> {
+  late YoutubePlayerController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = YoutubePlayerController(
+        initialVideoId: widget.videoId,
+        flags: const YoutubePlayerFlags(autoPlay: false, mute: false))
+      ..addListener(_onPlayerStateChange);
+  }
+
+  void _onPlayerStateChange() {
+    if (_controller.value.playerState == PlayerState.playing) {
+      final currentTime = _controller.value.position.inSeconds;
+    }
+  }
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        children: [
+          YoutubePlayer(controller: _controller),
         ],
-      ).box.width(context.screenWidth).padding(const EdgeInsets.all(20)).make(),
-      const CustomSwiper(
-        sliderList: servicesList,
-        duration: 10,
-        sliderNo: 1,
       ),
-      10.heightBox,
-      customButton(
-        onPress: () => controller.setNavIndex(2),
-        title: "All Services",
-        textColor: whiteColor,
-        btnColor: mehroonColor,
-      ).box.margin(const EdgeInsets.symmetric(horizontal: 20)).make(),
-      20.heightBox,
-    ],
-  ).box.width(context.screenWidth).white.make();
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 }
