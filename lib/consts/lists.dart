@@ -446,20 +446,18 @@ const teamList = [
   ),
   Member(
     name: 'Memoona Fatima',
-    position: 'Senior Graphic Designer',
+    position: 'Digital Marketing Intern',
     image: shoaib,
-    introduction: "Senior Graphic Designer at Zai Systems",
-    description:
-        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
+    introduction: "Digital Marketing Intern at Zai Systems",
+    description: "",
     profile: "https://www.linkedin.com/in/memoona-fatima-30619a253/",
   ),
   Member(
     name: 'Hafeez Khan',
-    position: 'Senior Graphic Designer',
+    position: 'SEO Intern',
     image: shoaib,
-    introduction: "Senior Graphic Designer at Zai Systems",
-    description:
-        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
+    introduction: "SEO Intern at Zai Systems",
+    description: "",
     profile: "https://www.linkedin.com/in/mhafeezkhan",
   ),
 ];

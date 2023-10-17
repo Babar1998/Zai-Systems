@@ -77,53 +77,59 @@ const contactUs = "Contact Us";
 const courseProvide = "Courses Provided";
 const softwareProvide = "Software Provider";
 const payrolls = "Payrolls";
-const payrollsText = "Powerfull and flexible payroll";
+const payrollsText =
+    "Streamline your payroll processes with ease. The issue, approve, and seamlessly transfer salaries to bank accounts in just one click. Impulse HCM automatically calculates deductions, and additions, and ensures accuracy.";
 const attendance = "Attendance";
 const attendanceText =
-    "Follow up attendance records from everywhere and anytime";
+    "Effortlessly monitor attendance and fingerprint records while automating the calculation of working hours, overtime, additions, and deductions. Impulse HCM simplifies workforce management, saving you time and effort.";
 const letterForms = "Letter & Forms";
 const letterFormsText =
-    "Create, edit and design HR forms and official letters in a smart way";
+    "Design and create professional letters, including contracts and other official documents. Let Impulse HCM automatically populate employee information, streamlining the printing process.";
 const leaveMgmt = "Customizable Leave Management";
 const leaveMgmtText =
-    "Follow up attendance records from everywhere and anytime";
+    "Create and customize leave types and effortlessly calculate leave balances according to your organization's policies. Bind specific leave types to specific contracts and define unpaid leaves seamlessly.";
 const selfService = "Employee Self-Service";
 const selfServiceText =
-    "Follow up attendance records from everywhere and anytime";
+    "Empower your team with over 10 services and request options through Impulse HCM's intuitive self-service platform. Enhance employee satisfaction and streamline HR processes simultaneously.";
 const performanceEvaluation = "Performance Evaluation";
 const performanceEvaluationText =
-    "Follow up attendance records from everywhere and anytime";
+    "Simple create evaluation forms, define competence criteria and weight, and assign them to employees based on job title or department. Impulse HCM facilitates the review and approval process, ensuring comprehensive performance evaluations.";
 const jobPortal = "Job Portal";
 const jobPortalText =
-    "Follow up attendance records from everywhere and anytime";
+    "Attract top talent by creating unlimited job posts and sharing your company's private URL with applicants. Utilize Impulse HCM’s filtering capabilities to view applicant CVs efficiently and make informed hiring decisions.";
 const taskMgmt = "Task Management";
-const taskMgmtText = "Follow up attendance records from everywhere and anytime";
-
+const taskMgmtText =
+    "Create and assign tasks to your teams, effortlessly track their progress, and generate insightful reports. Link tasks to evaluation forms, promoting holistic performance management.";
 const loansMgmt = "Loans Management";
 const loansMgmtText =
-    "Follow up attendance records from everywhere and anytime";
+    "Register and approve employee loans while specifying duration. Impulse HCM automates loan deductions in the payroll, simplifying the repayment process.";
 const tracking = "Benefits & Expenses Tracking";
-const trackingText = "Follow up attendance records from everywhere and anytime";
+const trackingText =
+    "Create unlimited custom benefits and track payments for each benefit, including travel tickets. Register and approve employee expenses seamlessly through Impulse HCM’s intuitive interface.";
 const custodyMgmt = "Custody Management";
 const custodyMgmtText =
-    "Follow up attendance records from everywhere and anytime";
+    "Assign and track employee custodies effortlessly. Generate QR codes for custodies, facilitating assignment and return tracking.";
 const notice = "Work Days Notice and Warning Management";
-const noticeText = "Follow up attendance records from everywhere and anytime";
+const noticeText =
+    "Create and send notices and warnings to employees via email and mobile notifications. Design and print notice and warning forms seamlessly within Impulse HCM.";
 const approvals = "Workflow & Approvals";
 const approvalsText =
-    "Follow up attendance records from everywhere and anytime";
+    "Define unlimited approval levels for requests and decisions. Customize statuses and actions for each workflow, ensuring efficient processes throughout your organization.";
 const memo = "Memo Communication";
-const memoText = "Follow up attendance records from everywhere and anytime";
+const memoText =
+    "Create and send memos to your team via email or mobile notifications. Keep track of the read status for each memo, promoting effective internal communication.";
 const decision = "Decision Management";
-const decisionText = "Follow up attendance records from everywhere and anytime";
+const decisionText =
+    "Effectively manage, approve, and track decisions such as employee transfers, salary adjustments, and deductions. Impulse HCM simplifies decision-making processes for seamless operations.";
 const endOfService = "End-of-Servicee";
 const endOfServiceText =
-    "Follow up attendance records from everywhere and anytime";
+    "Calculations Automatically calculate entitlements, end-of-service rewards, leave balances, and obligations for employees based on labor laws. Ensure compliance and accuracy effortlessly.";
 const dashboard = "Insightful Dashboard";
 const dashboardText =
-    "Follow up attendance records from everywhere and anytime";
+    "Create and customize your personalized dashboard with rich diagrams, charts, and tables. Gain valuable insights and make informed decisions promptly.";
 const rules = "Automated Rules & Regulations";
-const rulesText = "Follow up attendance records from everywhere and anytime";
+const rulesText =
+    "Define organizational rules and regulations, empowering Impulse HCM to automatically apply penalties for violations. Streamline compliance effortlessly.";
 const employeeSelfService = "Employee Self Services";
 const courses = "Courses";
 const impulseHCM = "Impulse $hcm360";
