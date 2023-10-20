@@ -32,13 +32,7 @@ class _YoutubePlayerCustomSubtitleState
   }
 
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Stack(
-        children: [
-          YoutubePlayer(controller: _controller),
-        ],
-      ),
-    );
+    return Container(child: YoutubePlayer(controller: _controller));
   }
 
   @override

@@ -6,7 +6,7 @@ import 'package:zaisystems/views/home_screen/widgets/company_summary.dart';
 import 'package:zaisystems/views/home_screen/widgets/hcm_builder.dart';
 import 'package:zaisystems/views/home_screen/widgets/services_and_courses.dart';
 import 'package:zaisystems/views/home_screen/widgets/testimonials.dart';
-// import 'package:zaisystems/views/home_screen/widgets/video_player.dart';
+import 'package:zaisystems/views/home_screen/widgets/video_player.dart';
 import 'package:zaisystems/widget_common/footer.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -38,8 +38,8 @@ class HomeScreen extends StatelessWidget {
               ),
               20.heightBox,
               expertiesBuilder(),
-              // 20.heightBox,
-              // const YoutubePlayerCustomSubtitle(),
+              20.heightBox,
+              const YoutubePlayerCustomSubtitle(),
               20.heightBox,
               const Testimonials(),
               20.heightBox,
