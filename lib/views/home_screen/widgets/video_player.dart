@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zaisystems/consts/imports.dart';
 
 class YoutubePlayerCustomSubtitle extends StatefulWidget {
   final String videoId = 'Wu44C8tiE5E';
@@ -32,7 +33,18 @@ class _YoutubePlayerCustomSubtitleState
   }
 
   Widget build(BuildContext context) {
-    return Container(child: YoutubePlayer(controller: _controller));
+    return Column(
+      children: [
+        "About Us".text.size(24).color(mehroonColor).bold.make(),
+        20.heightBox,
+        Container(child: YoutubePlayer(controller: _controller)),
+      ],
+    )
+        .box
+        .color(lightGolden)
+        .padding(const EdgeInsets.symmetric(vertical: 20))
+        .roundedSM
+        .make();
   }
 
   @override
