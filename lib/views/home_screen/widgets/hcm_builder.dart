@@ -15,12 +15,11 @@ Widget hcmBuilder({
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
-      10.heightBox,
       hcm360.text.size(heading).bold.color(whiteColor).make(),
       servicesProvide.text
           .color(whiteColor)
           .shadow(1, 1, 4, Vx.black)
-          .size(18)
+          .size(10)
           .make(),
       GridView.builder(
         physics: const NeverScrollableScrollPhysics(),

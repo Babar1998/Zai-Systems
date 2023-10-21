@@ -41,7 +41,7 @@ class _YoutubePlayerCustomSubtitleState
       ],
     )
         .box
-        .color(lightGolden)
+        .color(greyColor)
         .padding(const EdgeInsets.symmetric(vertical: 20))
         .roundedSM
         .make();

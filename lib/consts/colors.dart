@@ -9,4 +9,4 @@ const Color mehroonColor = Color.fromRGBO(129, 22, 1, 1);
 const Color mehroonDark = Color.fromRGBO(90, 15, 0, 1);
 const Color golden = Color.fromRGBO(255, 168, 0, 1);
 const Color lightGolden = Color(0xFFFEEAD1);
-const Color greyColor = Color.fromRGBO(232, 232, 232, 0);
+const Color greyColor = Color.fromRGBO(245, 245, 245, 1);

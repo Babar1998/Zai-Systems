@@ -138,7 +138,7 @@ const impulseHCMDesc =
 
 // !--------------------------- hcm payroll section ------------------------
 const impulseHCMPayrollDesc =
-    "Impulse HCM offers a complete payroll solution designed to meet and exceed your organization's needs. Out payroll system is fully customizable, ensuring it aligns perfectly with all your requirements";
+    "Our product impulse HCM 360° offers a complete payroll solution designed to meet and exceed your organization's needs. Out payroll system is fully customizable, ensuring it aligns perfectly with all your requirements";
 const impulseHCMPayroll = "Empowering Your Payroll Needs";
 const customizablePayroll = "Customizable Payroll";
 const customizablePayrollDesc =
@@ -227,12 +227,12 @@ const feedbackDesc =
 const welcome = "Welcome to";
 const companyFullName = "ZAI SYSTEMS (SMC-PRIVATE) LIMITED";
 const homeText =
-    "If you are worried about your new business then no need to worry because $appname have ways out for all of your problems.\n\n$appname has a powerfull combination of business experience and technological expertise providing clients best-in-class name solutions, in software development projects. $appname delivers high-quality, cost-effective, full lifecycle solutions for all sorts of development projects.";
+    "If you are worried about your new business then no need to worry because $appname have ways out for all of your problems.\n\n$appname has a powerful combination of business experience and technological expertise providing clients best-in-class name solutions, in software development projects. $appname delivers high-quality, cost-effective, full lifecycle solutions for all sorts of development projects.";
 const footerText =
     "$appname a software company for those professionals who seek passion in the world of IT. $appname integrates technology and human potential to provide intelligent business solutions for entrepreneurs and enterprises.";
 
 // ! ----------------------- services ---------------------------------
-const servicesProvide = "Services we provide for you";
+const servicesProvide = "A Sneak Peak At Our Services";
 const webAndApp = "Web and App";
 const webDetails =
     "Our skilled developers at Zaisystems have extensive experience working on website projects involving the development of ReactJS, AngularJS and VueJS.";

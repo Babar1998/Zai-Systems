@@ -154,7 +154,7 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Fatima alvi',
+    name: 'Fatima Alvi',
     position: 'Developer',
     image: fatima,
     introduction: "Developer at Zai Systems",
@@ -178,7 +178,7 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Sameen Fatime',
+    name: 'Sameen Fatima',
     position: 'Developer',
     image: sameen,
     introduction: "Developer at Zai Systems",
@@ -186,7 +186,7 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Soha Fatime',
+    name: 'Soha Fatima',
     position: 'Developer',
     image: soha,
     introduction: "Developer at Zai Systems",
@@ -332,7 +332,7 @@ const teamList = [
     profile: "https://www.linkedin.com/in/izzahmalik",
   ),
   Member(
-    name: 'Maniha',
+    name: 'Maniha Noor',
     position: 'Graphic Designer',
     image: maniha,
     introduction: "Graphic Designer at Zai Systems",
@@ -341,7 +341,7 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Mariyam',
+    name: 'Mariyam Ishfaq',
     position: 'Graphic Intern',
     image: mariyam,
     introduction: "Graphic Intern at Zai Systems",
@@ -365,7 +365,7 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Muneeb',
+    name: 'Muneeb Naveed',
     position: 'Graphic Designer',
     image: muneeb,
     introduction: "Graphic Designer at Zai Systems",
@@ -382,7 +382,7 @@ const teamList = [
     profile: "https://www.linkedin.com/in/syeda-shehar-bano-455013220",
   ),
   Member(
-    name: 'Hareem',
+    name: 'Hareem Junaid',
     position: 'Graphics Designer/Video Editor (Team Lead)',
     image: hareem,
     introduction: "Graphics Lead at Zai Systems",
