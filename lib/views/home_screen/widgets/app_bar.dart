@@ -6,7 +6,10 @@ SliverAppBar myAppBar(context) {
     expandedHeight: 200,
     pinned: true,
     flexibleSpace: FlexibleSpaceBar(
-      title: appname.text.fontFamily(semibold).make(),
+      title: Padding(
+        padding: const EdgeInsets.only(left: 20),
+        child: appname.text.fontFamily(semibold).make(),
+      ),
       background: Image.asset(decoration, fit: BoxFit.cover),
     ),
   );

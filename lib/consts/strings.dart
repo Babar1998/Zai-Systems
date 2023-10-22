@@ -232,7 +232,7 @@ const footerText =
     "$appname a software company for those professionals who seek passion in the world of IT. $appname integrates technology and human potential to provide intelligent business solutions for entrepreneurs and enterprises.";
 
 // ! ----------------------- services ---------------------------------
-const servicesProvide = "A Sneak Peak At Our Services";
+const servicesProvide = "A Peek Into Our Services";
 const webAndApp = "Web and App";
 const webDetails =
     "Our skilled developers at Zaisystems have extensive experience working on website projects involving the development of ReactJS, AngularJS and VueJS.";
