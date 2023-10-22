@@ -8,7 +8,7 @@ Widget companyDetails() {
       5.heightBox,
       companyFullName.text.size(18).color(mehroonColor).bold.make(),
       10.heightBox,
-      homeText.text.size(16).justify.make(),
+      homeText.text.size(16).make(),
     ],
   )
       .box

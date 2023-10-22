@@ -10,7 +10,7 @@ class Testimonials extends StatelessWidget {
     final controller = Get.find<SliderController>();
     return Column(
       children: <Widget>[
-        "Testimonials".text.size(24).color(mehroonColor).bold.make(),
+        "Testimonials".text.size(24).color(whiteColor).bold.make(),
         20.heightBox,
         Stack(
           alignment: Alignment.bottomCenter,
@@ -33,23 +33,41 @@ class Testimonials extends StatelessWidget {
                   )
                       .box
                       .padding(const EdgeInsets.all(2))
-                      .border(color: mehroonColor, width: 3)
+                      .border(color: whiteColor, width: 3)
                       .roundedFull
                       .make(),
                   10.heightBox,
-                  testimonialsList[index].country.text.bold.size(20).make(),
+                  testimonialsList[index]
+                      .country
+                      .text
+                      .bold
+                      .size(20)
+                      .color(whiteColor)
+                      .make(),
                   10.heightBox,
-                  testimonialsList[index].feedback.text.size(16).justify.make(),
+                  testimonialsList[index]
+                      .feedback
+                      .text
+                      .size(16)
+                      .justify
+                      .color(whiteColor)
+                      .make(),
                   10.heightBox,
                   testimonialsList[index]
                       .name
                       .text
                       .size(20)
-                      .color(mehroonColor)
+                      .color(whiteColor)
                       .fontFamily(semibold)
                       .make(),
                   5.heightBox,
-                  testimonialsList[index].position.text.size(16).bold.make(),
+                  testimonialsList[index]
+                      .position
+                      .text
+                      .size(16)
+                      .bold
+                      .color(whiteColor)
+                      .make(),
                 ],
               ).box.margin(const EdgeInsets.all(20)).make(),
             ),
@@ -67,9 +85,9 @@ class Testimonials extends StatelessWidget {
       ],
     )
         .box
-        .color(lightGolden)
+        .color(mehroonColor)
         .padding(const EdgeInsets.symmetric(vertical: 20))
-        .roundedSM
+        .roundedLg
         .make();
   }
 }

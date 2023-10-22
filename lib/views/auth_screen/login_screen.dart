@@ -120,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              "Welcome Back".text.bold.white.size(20).make(),
+              "Welcome".text.bold.white.size(20).make(),
               5.heightBox,
               "Log In!".text.bold.white.size(46).make(),
               (context.screenHeight * 0.2).heightBox,

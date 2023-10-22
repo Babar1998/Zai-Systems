@@ -129,6 +129,24 @@ const teamList = [
     profile: "",
   ),
   Member(
+    name: 'Usman Bin Shoaib',
+    position: 'Senior Graphic Designer',
+    image: shoaib,
+    introduction: "Senior Graphic Designer at Zai Systems",
+    description:
+        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
+    profile: "",
+  ),
+  Member(
+    name: 'Waqas Mughal',
+    position: 'Senior SEO',
+    image: waqas,
+    introduction: "Developer at Zai Systems",
+    description:
+        "Accumulating over 12 years of experience, Sir Waqas Mughal has consistently excelled as an exemplary SEO team leader. Beyond his proficiency in digital marketing practices, he ensures adept guidance for his team, effectively incorporating new strategies.",
+    profile: "",
+  ),
+  Member(
     name: 'Huzaifa Ali',
     position: 'CTO',
     image: huzaifa,
@@ -136,6 +154,119 @@ const teamList = [
     description:
         "Meet our visionary CTO Sir Huzaifa Ali, guiding us through the tech frontier, and our ingenious Web Lead, weaving digital wonders into reality.",
     profile: "https://www.linkedin.com/in/huzaifa-ali07/",
+  ),
+  Member(
+    name: 'Hareem Junaid',
+    position: 'Graphics Designer/Video Editor (Team Lead)',
+    image: hareem,
+    introduction: "Graphics Lead at Zai Systems",
+    description:
+        "Having accumulated 2 years of experience, Miss Hareem Junaid stands as a committed and enthusiastic graphic designer and video editor (also serving as a team lead) at Zai Systems. Her exceptional artistic prowess, along with her role as a managerial figure, quality of her work and her leadership persona.",
+    profile: "http://www.linkedin.com/in/hareem-junaid",
+  ),
+  Member(
+    name: 'Izzah Malik',
+    position: 'SEO Intern',
+    image: izzah,
+    introduction: "SEO Intern at Zai Systems",
+    description:
+        "Izzah Malik, a dedicated and adept SEO specialist at Zai Systems, consistently offers her expertise in providing valuable SEO services for business.",
+    profile: "https://www.linkedin.com/in/izzahmalik",
+  ),
+  Member(
+    name: 'Babar Arif',
+    position: 'Mobile App Developer',
+    image: babar,
+    introduction: "Mobile App Developer at Zai Systems",
+    description:
+        "Our Mobile App Developer Babar Arif devotes his development skills efficiently. We are glad to have him as a great employee.",
+    profile: "https://www.linkedin.com/in/babar-arif/",
+  ),
+  Member(
+    name: 'Huraira Younas',
+    position: 'Mobile App Developer',
+    image: huraira,
+    introduction: "Mobile App Developer at Zai Systems",
+    description:
+        "Huraira Younas serves as a mobile app developer at Zai Systems. The skills he exhibits in app development, coupled with his unwavering dedication, bring us immense satisfaction.",
+    profile: "https://www.linkedin.com/in/hurairayounas",
+  ),
+  Member(
+    name: 'Sami Ahmad',
+    position: 'Developer',
+    image: sami,
+    introduction: "Developer at Zai Systems",
+    description: "Developer",
+    profile: "",
+  ),
+  Member(
+    name: 'Mariyam Ishfaq',
+    position: 'Graphic Designer',
+    image: ishfaq,
+    introduction: "Graphic Designer at Zai Systems",
+    description:
+        "Mariyam Ishfaq, a remarkable graphic designer at Zai Systems, demonstrates unwavering dedication to enhancing her design skills through diligent effort.",
+    profile: "",
+  ),
+  Member(
+    name: 'Muneeb Naveed',
+    position: 'Graphic Designer',
+    image: muneeb,
+    introduction: "Graphic Designer at Zai Systems",
+    description:
+        "Müneeb Naveed, our skilled graphic designer, incorporates dynamic spark effects into his illustrations and graphics, consistently earning admiration for his high-quality creations.",
+    profile: "https://www.linkedin.com/in/muneeb-naveed",
+  ),
+  Member(
+    name: 'Muhammad Irfan',
+    position: 'Graphic Designer',
+    image: mirfan,
+    introduction: "Graphic Designer at Zai Systems",
+    description:
+        "Muhammad Irfan, a Passionate Graphic Designer, who loves to put hard work in his graphic designing skills.",
+    profile: "",
+  ),
+  Member(
+    name: 'Shehr Bano',
+    position: 'Graphic Intern',
+    image: sheherbano,
+    introduction: "Graphic Intern at Zai Systems",
+    description: "Graphic Intern",
+    profile: "https://www.linkedin.com/in/syeda-shehar-bano-455013220",
+  ),
+  Member(
+    name: 'Ali Shoaib',
+    position: 'Graphic Designer',
+    image: alishoaib,
+    introduction: "Graphic Designer at Zai Systems",
+    description:
+        "Ali Shoaib, an immensely passionate and industrious graphic designer, channels his dedication into his designs, establishing himself as a standout contributor at Zai Systems.",
+    profile: "https://www.linkedin.com/in/ali-s-1b0171250",
+  ),
+  Member(
+    name: 'Memoona Fatima',
+    position: 'Digital Marketing Intern',
+    image: shoaib,
+    introduction: "Digital Marketing Intern at Zai Systems",
+    description: "",
+    profile: "https://www.linkedin.com/in/memoona-fatima-30619a253/",
+  ),
+  Member(
+    name: 'Hafeez Khan',
+    position: 'SEO Intern',
+    image: shoaib,
+    introduction: "SEO Intern at Zai Systems",
+    description: "",
+    profile: "https://www.linkedin.com/in/mhafeezkhan",
+  ),
+  Member(
+    name: 'Maniha Noor',
+    position: 'Graphic Designer',
+    image: maniha,
+    introduction: "Graphic Designer at Zai Systems",
+    description:
+        "Our graphic designer Maniha Noor is a hard working and dedicated employee.She creates designs deligently and her work is always appreciable.",
+    profile: "",
   ),
   Member(
     name: 'Mishal Riasat',
@@ -157,14 +288,6 @@ const teamList = [
     name: 'Fatima Alvi',
     position: 'Developer',
     image: fatima,
-    introduction: "Developer at Zai Systems",
-    description: "Developer",
-    profile: "",
-  ),
-  Member(
-    name: 'Sami Ahmad',
-    position: 'Developer',
-    image: sami,
     introduction: "Developer at Zai Systems",
     description: "Developer",
     profile: "",
@@ -215,15 +338,6 @@ const teamList = [
     image: saad,
     introduction: "Developer at Zai Systems",
     description: "Developer",
-    profile: "",
-  ),
-  Member(
-    name: 'Waqas Mughal',
-    position: 'Developer',
-    image: waqas,
-    introduction: "Developer at Zai Systems",
-    description:
-        "Accumulating over 12 years of experience, Sir Waqas Mughal has consistently excelled as an exemplary SEO team leader. Beyond his proficiency in digital marketing practices, he ensures adept guidance for his team, effectively incorporating new strategies.",
     profile: "",
   ),
   Member(
@@ -323,142 +437,12 @@ const teamList = [
     profile: "",
   ),
   Member(
-    name: 'Izzah Malik',
-    position: 'SEO Intern',
-    image: izzah,
-    introduction: "SEO Intern at Zai Systems",
-    description:
-        "Izzah Malik, a dedicated and adept SEO specialist at Zai Systems, consistently offers her expertise in providing valuable SEO services for business.",
-    profile: "https://www.linkedin.com/in/izzahmalik",
-  ),
-  Member(
-    name: 'Maniha Noor',
-    position: 'Graphic Designer',
-    image: maniha,
-    introduction: "Graphic Designer at Zai Systems",
-    description:
-        "Our graphic designer Maniha Noor is a hard working and dedicated employee.She creates designs deligently and her work is always appreciable.",
-    profile: "",
-  ),
-  Member(
-    name: 'Mariyam Ishfaq',
-    position: 'Graphic Intern',
-    image: mariyam,
-    introduction: "Graphic Intern at Zai Systems",
-    description: "Graphic Intern",
-    profile: "",
-  ),
-  Member(
-    name: 'M.Irfan',
-    position: 'Graphic Intern',
-    image: irfan,
-    introduction: "Graphic Intern at Zai Systems",
-    description: "Graphic Intern",
-    profile: "",
-  ),
-  Member(
     name: 'Momin Mohsin',
     position: 'App Developer Intern',
     image: momin,
     introduction: "App Developer Intern at Zai Systems",
     description: "App Developer Intern",
     profile: "",
-  ),
-  Member(
-    name: 'Muneeb Naveed',
-    position: 'Graphic Designer',
-    image: muneeb,
-    introduction: "Graphic Designer at Zai Systems",
-    description:
-        "Müneeb Naveed, our skilled graphic designer, incorporates dynamic spark effects into his illustrations and graphics, consistently earning admiration for his high-quality creations.",
-    profile: "https://www.linkedin.com/in/muneeb-naveed",
-  ),
-  Member(
-    name: 'Shehr Bano',
-    position: 'Graphic Intern',
-    image: sheherbano,
-    introduction: "Graphic Intern at Zai Systems",
-    description: "Graphic Intern",
-    profile: "https://www.linkedin.com/in/syeda-shehar-bano-455013220",
-  ),
-  Member(
-    name: 'Hareem Junaid',
-    position: 'Graphics Designer/Video Editor (Team Lead)',
-    image: hareem,
-    introduction: "Graphics Lead at Zai Systems",
-    description:
-        "Having accumulated 2 years of experience, Miss Hareem Junaid stands as a committed and enthusiastic graphic designer and video editor (also serving as a team lead) at Zai Systems. Her exceptional artistic prowess, along with her role as a managerial figure, quality of her work and her leadership persona.",
-    profile: "http://www.linkedin.com/in/hareem-junaid",
-  ),
-  Member(
-    name: 'Babar Arif',
-    position: 'Mobile App Developer',
-    image: babar,
-    introduction: "Mobile App Developer at Zai Systems",
-    description:
-        "Our Mobile App Developer Babar Arif devotes his development skills efficiently. We are glad to have him as a great employee.",
-    profile: "https://www.linkedin.com/in/babar-arif/",
-  ),
-  Member(
-    name: 'Huraira Younas',
-    position: 'Mobile App Developer',
-    image: huraira,
-    introduction: "Mobile App Developer at Zai Systems",
-    description:
-        "Huraira Younas serves as a mobile app developer at Zai Systems. The skills he exhibits in app development, coupled with his unwavering dedication, bring us immense satisfaction.",
-    profile: "https://www.linkedin.com/in/hurairayounas",
-  ),
-  Member(
-    name: 'Ali Shoaib',
-    position: 'Graphic Designer',
-    image: alishoaib,
-    introduction: "Graphic Designer at Zai Systems",
-    description:
-        "Ali Shoaib, an immensely passionate and industrious graphic designer, channels his dedication into his designs, establishing himself as a standout contributor at Zai Systems.",
-    profile: "https://www.linkedin.com/in/ali-s-1b0171250",
-  ),
-  Member(
-    name: 'Mariyam Ishfaq',
-    position: 'Graphic Designer',
-    image: ishfaq,
-    introduction: "Graphic Designer at Zai Systems",
-    description:
-        "Mariyam Ishfaq, a remarkable graphic designer at Zai Systems, demonstrates unwavering dedication to enhancing her design skills through diligent effort.",
-    profile: "",
-  ),
-  Member(
-    name: 'Muhammad Irfan',
-    position: 'Graphic Designer',
-    image: mirfan,
-    introduction: "Graphic Designer at Zai Systems",
-    description:
-        "Muhammad Irfan, a Passionate Graphic Designer, who loves to put hard work in his graphic designing skills.",
-    profile: "",
-  ),
-  Member(
-    name: 'Usman Bin Shoaib',
-    position: 'Senior Graphic Designer',
-    image: shoaib,
-    introduction: "Senior Graphic Designer at Zai Systems",
-    description:
-        "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
-    profile: "",
-  ),
-  Member(
-    name: 'Memoona Fatima',
-    position: 'Digital Marketing Intern',
-    image: shoaib,
-    introduction: "Digital Marketing Intern at Zai Systems",
-    description: "",
-    profile: "https://www.linkedin.com/in/memoona-fatima-30619a253/",
-  ),
-  Member(
-    name: 'Hafeez Khan',
-    position: 'SEO Intern',
-    image: shoaib,
-    introduction: "SEO Intern at Zai Systems",
-    description: "",
-    profile: "https://www.linkedin.com/in/mhafeezkhan",
   ),
 ];
 
