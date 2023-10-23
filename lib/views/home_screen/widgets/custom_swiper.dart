@@ -43,6 +43,7 @@ class CustomSwiper extends StatelessWidget {
                   .width(context.screenWidth)
                   .clip(Clip.antiAlias)
                   .margin(const EdgeInsets.symmetric(horizontal: 4.0))
+                  .outerShadow3Xl
                   .make(),
             ),
             Obx(

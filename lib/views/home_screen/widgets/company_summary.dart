@@ -25,5 +25,5 @@ Widget companySummary({
       ).constrainedBox(BoxConstraints(minWidth: context.screenWidth / 2)),
       10.heightBox,
     ],
-  ).box.white.make();
+  ).box.color(whiteColor).make();
 }
