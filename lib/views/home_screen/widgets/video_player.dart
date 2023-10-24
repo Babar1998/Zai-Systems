@@ -35,15 +35,14 @@ class _YoutubePlayerCustomSubtitleState
   Widget build(BuildContext context) {
     return Column(
       children: [
-        "About Us".text.size(24).color(mehroonColor).bold.make(),
-        20.heightBox,
         Container(child: YoutubePlayer(controller: _controller)),
       ],
     )
         .box
-        .color(greyColor)
-        .padding(const EdgeInsets.symmetric(vertical: 20))
-        .roundedSM
+        .color(lightGrey)
+        .padding(const EdgeInsets.all(10))
+        .roundedLg
+        .outerShadow3Xl
         .make();
   }
 
