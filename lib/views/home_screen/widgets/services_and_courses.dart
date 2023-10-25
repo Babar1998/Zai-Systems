@@ -38,6 +38,7 @@ Widget servicesAndCourses({
           courses.text.size(24).fontFamily(bold).color(mehroonColor).make(),
           5.heightBox,
           coursesDetails.text.size(16).justify.make(),
+          10.heightBox,
           const CustomSwiper(
             sliderList: courseList,
             duration: 8,
