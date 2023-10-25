@@ -85,7 +85,7 @@ class Testimonials extends StatelessWidget {
       ],
     )
         .box
-        .color(mehroonColor)
+        .color(mehroonDark)
         .padding(const EdgeInsets.symmetric(vertical: 20))
         .roundedLg
         .make();

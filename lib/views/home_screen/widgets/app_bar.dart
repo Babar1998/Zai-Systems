@@ -11,6 +11,6 @@ SliverAppBar myAppBar(context) {
         child: appname.text.fontFamily(semibold).make(),
       ),
       background: Image.asset(decoration, fit: BoxFit.cover),
-    ),
+    ).color(mehroonDark),
   );
 }

@@ -75,18 +75,12 @@ class CustomSwiper extends StatelessWidget {
                   .subText
                   .text
                   .minFontSize(16)
-                  .maxLines(4)
+                  .maxLines(7)
                   .overflow(TextOverflow.ellipsis)
                   .justify
                   .make()
             ],
-          )
-              .box
-              .white
-              .padding(
-                  const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10))
-              .roundedSM
-              .make(),
+          ).box.color(lightGrey).roundedSM.make(),
         )
       ],
     );

@@ -19,7 +19,7 @@ CircularPercentIndicator circularIndicator({
         .box
         .margin(const EdgeInsets.only(top: 10))
         .make(),
-    backgroundColor: lightGolden,
+    backgroundColor: lightGrey,
     circularStrokeCap: CircularStrokeCap.round,
     progressColor: mehroonColor,
   );

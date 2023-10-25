@@ -38,29 +38,26 @@ Widget servicesAndCourses({
           courses.text.size(24).fontFamily(bold).color(mehroonColor).make(),
           5.heightBox,
           coursesDetails.text.size(16).justify.make(),
+          const CustomSwiper(
+            sliderList: courseList,
+            duration: 8,
+            sliderNo: 2,
+          ),
+          10.heightBox,
+          customButton(
+            onPress: () => controller.setNavIndex(3),
+            title: "All Courses",
+            textColor: whiteColor,
+            btnColor: mehroonColor,
+          ).box.margin(const EdgeInsets.symmetric(horizontal: 5)).make(),
         ],
       )
           .box
-          .color(lightGolden)
+          .color(lightGrey)
           .width(context.screenWidth)
           .padding(const EdgeInsets.all(20))
+          .roundedLg
           .make(),
-      20.heightBox,
-
-      const CustomSwiper(
-        sliderList: courseList,
-        duration: 8,
-        sliderNo: 2,
-      ),
-
-      10.heightBox,
-      customButton(
-        onPress: () => controller.setNavIndex(3),
-        title: "All Courses",
-        textColor: whiteColor,
-        btnColor: mehroonColor,
-      ).box.margin(const EdgeInsets.symmetric(horizontal: 20)).make(),
-      10.heightBox,
     ],
   ).box.width(context.screenWidth).white.make();
 }
