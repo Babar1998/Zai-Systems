@@ -11,19 +11,24 @@ Widget companySummary({
     children: <Widget>[
       companyDetails(),
       20.heightBox,
-      const CustomSwiper(
-        sliderList: sliderList,
-        duration: 8,
-        sliderNo: 0,
-      ),
-      10.heightBox,
-      customButton(
-        onPress: () => controller.setNavIndex(4),
-        title: "Our Team",
-        textColor: whiteColor,
-        btnColor: mehroonColor,
-      ).constrainedBox(BoxConstraints(minWidth: context.screenWidth / 2)),
+      Column(
+        children: <Widget>[
+          const CustomSwiper(
+            sliderList: sliderList,
+            duration: 8,
+            sliderNo: 0,
+          ),
+          10.heightBox,
+          customButton(
+            onPress: () => controller.setNavIndex(4),
+            title: "Our Team",
+            textColor: whiteColor,
+            btnColor: mehroonColor,
+          ).constrainedBox(BoxConstraints(minWidth: context.screenWidth / 2)),
+          10.heightBox,
+        ],
+      ).box.color(lightGrey).roundedLg.make(),
       10.heightBox,
     ],
-  ).box.color(whiteColor).make();
+  ).box.white.make();
 }

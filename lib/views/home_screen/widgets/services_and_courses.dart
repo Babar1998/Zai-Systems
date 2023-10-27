@@ -15,20 +15,27 @@ Widget servicesAndCourses({
           services.text.size(24).fontFamily(bold).color(mehroonColor).make(),
           5.heightBox,
           servicesProvide.text.size(16).justify.make(),
+          const CustomSwiper(
+            sliderList: servicesList,
+            duration: 10,
+            sliderNo: 1,
+          ),
+          10.heightBox,
+          customButton(
+            onPress: () => controller.setNavIndex(2),
+            title: "All Services",
+            textColor: whiteColor,
+            btnColor: mehroonColor,
+          ).box.margin(const EdgeInsets.symmetric(horizontal: 5)).make(),
         ],
-      ).box.width(context.screenWidth).padding(const EdgeInsets.all(20)).make(),
-      const CustomSwiper(
-        sliderList: servicesList,
-        duration: 10,
-        sliderNo: 1,
-      ),
-      10.heightBox,
-      customButton(
-        onPress: () => controller.setNavIndex(2),
-        title: "All Services",
-        textColor: whiteColor,
-        btnColor: mehroonColor,
-      ).box.margin(const EdgeInsets.symmetric(horizontal: 20)).make(),
+      )
+          .box
+          .width(context.screenWidth)
+          .padding(const EdgeInsets.all(20))
+          .roundedLg
+          .color(lightGrey)
+          .make(),
+
       20.heightBox,
 
       // courses
