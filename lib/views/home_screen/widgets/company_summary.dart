@@ -13,11 +13,12 @@ Widget companySummary({
       20.heightBox,
       Column(
         children: <Widget>[
+          20.heightBox,
           const CustomSwiper(
             sliderList: sliderList,
             duration: 8,
             sliderNo: 0,
-          ),
+          ).box.roundedLg.make(),
           10.heightBox,
           customButton(
             onPress: () => controller.setNavIndex(4),

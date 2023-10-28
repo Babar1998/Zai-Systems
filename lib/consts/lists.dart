@@ -117,8 +117,7 @@ const teamList = [
       introduction: "Chief Executive Officer of Zai Systems",
       description:
           "Boasting over 15 years of experience across esteemed firms, our CEO, Owais Ahmad Khan, showcases remarkable organizational leadership abilities and an entrepreneurial outlook. His adept management extends to efficiently overseeing and managing all organizational affairs.",
-      profile:
-          "https://www.facebook.com/zaisystems?paipv=0&eav=AfY8FerIphTkdF6U1gcw5SpXWpEET_yups6EeIAuM8C_BP-U5HU003uWYUWbtICGvcY"),
+      profile: "http://www.linkedin.com/in/owaisahmadkhan"),
   Member(
     name: 'Abdul Rafay Ahmad',
     position: 'COO',
@@ -126,7 +125,7 @@ const teamList = [
     introduction: "Chief Operating Officer of Zai Systems",
     description:
         "Sir Abdul Rafay, our accomplished COO, possesses outstanding leadership acumen. He oversees and guides team performance on a daily basis, with his wealth of experience, skills, and achievements significantly contributing to the success of the organization.",
-    profile: "",
+    profile: "https://www.linkedin.com/in/rafayahmadkhan",
   ),
   Member(
     name: 'Usman Bin Shoaib',
@@ -135,7 +134,7 @@ const teamList = [
     introduction: "Senior Graphic Designer at Zai Systems",
     description:
         "Our Sr. Graphic Designer Manager, Sir. Usman Bin Sohaib, consistently lends his expertise and skills to benefit our team. His approach and achievements serve as a significant wellspring of inspiration for our fellow graphic designers.",
-    profile: "",
+    profile: "http://www.linkedin.com/in/usman-sohaib-",
   ),
   Member(
     name: 'Waqas Mughal',
@@ -144,7 +143,7 @@ const teamList = [
     introduction: "Developer at Zai Systems",
     description:
         "Accumulating over 12 years of experience, Sir Waqas Mughal has consistently excelled as an exemplary SEO team leader. Beyond his proficiency in digital marketing practices, he ensures adept guidance for his team, effectively incorporating new strategies.",
-    profile: "",
+    profile: "http://www.linkedin.com/in/waqas-mughal",
   ),
   Member(
     name: 'Huzaifa Ali',
@@ -206,7 +205,7 @@ const teamList = [
     introduction: "Graphic Designer at Zai Systems",
     description:
         "Mariyam Ishfaq, a remarkable graphic designer at Zai Systems, demonstrates unwavering dedication to enhancing her design skills through diligent effort.",
-    profile: "",
+    profile: "http://www.linkedin.com/in/mariyam-ishfaq",
   ),
   Member(
     name: 'Muneeb Naveed',
@@ -266,7 +265,7 @@ const teamList = [
     introduction: "Graphic Designer at Zai Systems",
     description:
         "Our graphic designer Maniha Noor is a hard working and dedicated employee.She creates designs deligently and her work is always appreciable.",
-    profile: "",
+    profile: "http://www.linkedin.com/in/maniha-noor",
   ),
   Member(
     name: 'Mishal Riasat',
