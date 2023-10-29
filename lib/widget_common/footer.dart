@@ -39,7 +39,7 @@ class Footer extends StatelessWidget {
               ),
             ),
             10.heightBox,
-            "© 2022 - Zai Systems - All Rights Reserved"
+            "© 2023 - Zai Systems - All Rights Reserved"
                 .text
                 .color(fontGrey)
                 .size(14)

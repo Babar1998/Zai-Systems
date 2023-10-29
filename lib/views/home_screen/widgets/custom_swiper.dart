@@ -21,51 +21,41 @@ class CustomSwiper extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Container(
-          decoration: BoxDecoration(boxShadow: [
-            BoxShadow(
-              color: Colors.grey.withOpacity(0.9),
-              spreadRadius: 10,
-              blurRadius: 9,
-              offset: Offset(0, 3),
-            )
-          ]),
-          child: Stack(
-            alignment: Alignment.bottomCenter,
-            children: <Widget>[
-              VxSwiper.builder(
-                viewportFraction: 0.9,
-                height: 200,
-                autoPlayAnimationDuration: const Duration(milliseconds: 500),
-                autoPlayInterval: Duration(seconds: duration),
-                autoPlay: true,
-                enlargeCenterPage: true,
-                onPageChanged: (index) =>
-                    controller.setSliderIndex(sliderNo, index),
+        Stack(
+          alignment: Alignment.bottomCenter,
+          children: <Widget>[
+            VxSwiper.builder(
+              viewportFraction: 0.9,
+              height: 200,
+              autoPlayAnimationDuration: const Duration(milliseconds: 500),
+              autoPlayInterval: Duration(seconds: duration),
+              autoPlay: true,
+              enlargeCenterPage: true,
+              onPageChanged: (index) =>
+                  controller.setSliderIndex(sliderNo, index),
+              itemCount: sliderList.length,
+              itemBuilder: (context, index) => Image.asset(
+                sliderList[index].image,
+                fit: BoxFit.fill,
+              )
+                  .box
+                  .rounded
+                  .width(context.screenWidth)
+                  .clip(Clip.antiAlias)
+                  .margin(const EdgeInsets.symmetric(horizontal: 4.0))
+                  .make(),
+            ),
+            Obx(
+              () => DotIndicator(
+                currentIndex: controller.sliderIndices[sliderNo].value,
                 itemCount: sliderList.length,
-                itemBuilder: (context, index) => Image.asset(
-                  sliderList[index].image,
-                  fit: BoxFit.fill,
-                )
-                    .box
-                    .rounded
-                    .width(context.screenWidth)
-                    .clip(Clip.antiAlias)
-                    .margin(const EdgeInsets.symmetric(horizontal: 4.0))
-                    .make(),
+                activeColor: lightGrey,
+                inactiveColor: fontGrey,
+              ).positioned(
+                bottom: 10.0,
               ),
-              Obx(
-                () => DotIndicator(
-                  currentIndex: controller.sliderIndices[sliderNo].value,
-                  itemCount: sliderList.length,
-                  activeColor: lightGrey,
-                  inactiveColor: fontGrey,
-                ).positioned(
-                  bottom: 10.0,
-                ),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
         20.heightBox,
         Obx(

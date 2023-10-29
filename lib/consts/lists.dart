@@ -196,7 +196,7 @@ const teamList = [
     image: sami,
     introduction: "Developer at Zai Systems",
     description: "Developer",
-    profile: "",
+    profile: "https://www.linkedin.com/in/muhammad-ahmed-202462280",
   ),
   Member(
     name: 'Mariyam Ishfaq',
