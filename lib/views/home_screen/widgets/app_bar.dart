@@ -19,11 +19,11 @@ SliverAppBar myAppBar(context) {
         ),
       ),
       child: FlexibleSpaceBar(
-        title: Padding(
-          padding: const EdgeInsets.only(left: 20),
-          child: appname.text.fontFamily(semibold).make(),
-        ),
-        background: Image.asset(decoration, fit: BoxFit.cover),
+        // title: Padding(
+        //   padding: const EdgeInsets.only(left: 20),
+        //   child: appname.text.fontFamily(semibold).make(),
+        // ),
+        background: Image.asset(imgZaiBanner1, fit: BoxFit.cover),
       ),
     ),
   );

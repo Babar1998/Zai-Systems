@@ -10,10 +10,10 @@ Widget socialButton({
     padding: const EdgeInsets.all(8.0),
     child: CircleAvatar(
       backgroundColor: isBackground ? lightGrey : Colors.black,
-      radius: 25,
+      radius: 15,
       child: Image.asset(
         icon,
-        width: 30,
+        width: 40,
         color: iconColor,
       ),
     ),

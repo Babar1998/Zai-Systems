@@ -17,6 +17,9 @@ const fbUrl = "https://www.facebook.com/zaisystems";
 const instaUrl = "https://www.instagram.com/zaisystems/";
 const linkedInUrl =
     "https://www.linkedin.com/company/zai-systems-smc-private-limited/mycompany/";
+const xUrl = "https://x.com/ZaiSystems?t=rL-pyCvNC6SmYaW13VrcwA&s=08";
+const pinUrl = "https://pin.it/7yRmmc3";
+const ytUrl = "https://youtube.com/@Zai-Systems?si=JbYEtYVqvEIDkJon";
 const webUrl = "https://www.zaisystems.com";
 
 // text sizes

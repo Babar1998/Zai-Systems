@@ -19,6 +19,9 @@ const footerIconList = [
   CardItem("", instaUrl, footerInstaLogo),
   CardItem("", linkedInUrl, footerLinkedInLogo),
   CardItem("", webUrl, footerWebLogo),
+  CardItem("", xUrl, footerXLogo),
+  CardItem("", pinUrl, footerPinterestLogo),
+  CardItem("", ytUrl, footerYoutubeLogo),
 ];
 
 // for drawer

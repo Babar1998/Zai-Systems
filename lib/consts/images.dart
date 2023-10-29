@@ -14,10 +14,15 @@ const footerFbLogo = "assets/icons/facebook.png";
 const footerInstaLogo = "assets/icons/insta.png";
 const footerLinkedInLogo = "assets/icons/linkedin.png";
 const footerWebLogo = "assets/icons/website.png";
+const footerXLogo = "assets/icons/x.png";
+const footerPinterestLogo = "assets/icons/pin.png";
+const footerYoutubeLogo = "assets/icons/youtube.png";
 
 //images
 const bg = "assets/images/background.jpeg";
 const decoration = "assets/images/banner.jpg";
+const imgZaiBanner1 = "assets/images/zai Systems.png";
+const imgZaiBanner2 = "assets/images/zai Systems 2.png";
 const slider1 = "assets/images/bg.png";
 const slider2 = "assets/images/bg3.png";
 const slider3 = "assets/images/img2.jpg";
