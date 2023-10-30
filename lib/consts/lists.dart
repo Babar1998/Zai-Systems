@@ -39,7 +39,7 @@ const sliderList = [
   CardItem(
     appname,
     "$appname speciality teams create cost-effective innovative custom solutions to meet your challenges",
-    slider1,
+    imgZaiBanner2,
   ),
   CardItem(
     hcm360,
@@ -49,19 +49,19 @@ const sliderList = [
   CardItem(
     softwareProvide,
     "$appname speciality teams create cost-effective innovative custom solutions to meet your challenges",
-    slider3,
+    slider4,
   ),
   CardItem(
     courseProvide,
     "$appname speciality teams create cost-effective innovative custom solutions to meet your challenges",
-    slider1,
+    slider5,
   ),
 ];
 
 const servicesList = [
-  CardItem(webAndApp, webDetails, imgBanner),
-  CardItem(ecommerce, ecommerceDetails, imgBanner2),
-  CardItem(supportTime, supportDetails, imgBanner3),
+  CardItem(webAndApp, webDetails, slider5),
+  CardItem(ecommerce, ecommerceDetails, slider4),
+  CardItem(supportTime, supportDetails, slider6),
 ];
 
 const courseList = [

@@ -26,6 +26,9 @@ const imgZaiBanner2 = "assets/images/zai Systems 2.png";
 const slider1 = "assets/images/bg.png";
 const slider2 = "assets/images/bg3.png";
 const slider3 = "assets/images/img2.jpg";
+const slider4 = "assets/images/PNG 3.png";
+const slider5 = "assets/images/PNG 02.png";
+const slider6 = "assets/images/png.png";
 const cSlider1 = "assets/images/webapp.png";
 const cSlider2 = "assets/images/ecom.png";
 const cSlider3 = "assets/images/schedule.png";
@@ -97,7 +100,7 @@ const mirfan = "assets/images/team/mirfan.jpeg";
 const shoaib = "assets/images/team/usmanshoaib.jpeg";
 
 // HCM 360
-const imgHcm360 = "assets/images/hcm360.png";
+const imgHcm360 = "assets/images/Impulse HCM 360.png";
 const imgPayroll = "assets/images/hcm360/payroll.png";
 const imgLetterAndServices = "assets/images/hcm360/Letters & Forms.png";
 const imgleaveMgmt = "assets/images/hcm360/Customizable Leave Management.png";
