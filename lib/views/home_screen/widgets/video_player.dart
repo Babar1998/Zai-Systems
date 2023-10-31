@@ -39,10 +39,10 @@ class _YoutubePlayerCustomSubtitleState
       ],
     )
         .box
-        .color(lightGrey)
+        .color(whiteColor)
         .padding(const EdgeInsets.all(10))
         .roundedLg
-        .outerShadow3Xl
+        .outerShadowLg
         .make();
   }
 

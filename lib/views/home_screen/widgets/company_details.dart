@@ -13,8 +13,8 @@ Widget companyDetails() {
   )
       .box
       .padding(const EdgeInsets.all(20))
-      .color(lightGrey)
-      .outerShadow3Xl
+      .color(whiteColor)
+      .outerShadowLg
       .roundedLg
       .make();
 }

@@ -14,9 +14,9 @@ const footerFbLogo = "assets/icons/facebook.png";
 const footerInstaLogo = "assets/icons/insta.png";
 const footerLinkedInLogo = "assets/icons/linkedin.png";
 const footerWebLogo = "assets/icons/website.png";
-const footerXLogo = "assets/icons/x.png";
-const footerPinterestLogo = "assets/icons/pin.png";
-const footerYoutubeLogo = "assets/icons/youtube.png";
+const footerXLogo = "assets/icons/X 60x60.png";
+const footerPinterestLogo = "assets/icons/p.png";
+const footerYoutubeLogo = "assets/icons/yt.png";
 
 //images
 const bg = "assets/images/background.jpeg";

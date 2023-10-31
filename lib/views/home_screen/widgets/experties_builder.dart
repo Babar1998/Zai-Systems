@@ -22,5 +22,11 @@ Widget expertiesBuilder() {
         ),
       ),
     ],
-  ).box.padding(const EdgeInsets.all(20)).color(lightGrey).roundedLg.make();
+  )
+      .box
+      .padding(const EdgeInsets.all(20))
+      .color(whiteColor)
+      .outerShadowLg
+      .roundedLg
+      .make();
 }

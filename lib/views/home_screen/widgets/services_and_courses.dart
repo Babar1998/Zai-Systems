@@ -34,7 +34,8 @@ Widget servicesAndCourses({
           .width(context.screenWidth)
           .padding(const EdgeInsets.all(20))
           .roundedLg
-          .color(lightGrey)
+          .outerShadowLg
+          .color(whiteColor)
           .make(),
 
       20.heightBox,
@@ -62,10 +63,11 @@ Widget servicesAndCourses({
         ],
       )
           .box
-          .color(lightGrey)
+          .color(whiteColor)
           .width(context.screenWidth)
           .padding(const EdgeInsets.all(20))
           .roundedLg
+          .outerShadowLg
           .make(),
     ],
   ).box.width(context.screenWidth).white.make();

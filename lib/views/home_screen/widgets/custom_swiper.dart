@@ -79,7 +79,7 @@ class CustomSwiper extends StatelessWidget {
                   .justify
                   .make()
             ],
-          ).box.color(lightGrey).roundedSM.make(),
+          ).box.color(whiteColor).make(),
         )
       ],
     );
