@@ -25,6 +25,7 @@ class CustomSwiper extends StatelessWidget {
           alignment: Alignment.bottomCenter,
           children: <Widget>[
             VxSwiper.builder(
+              aspectRatio: 9 / 16,
               viewportFraction: 0.9,
               height: 200,
               autoPlayAnimationDuration: const Duration(milliseconds: 500),
@@ -79,7 +80,11 @@ class CustomSwiper extends StatelessWidget {
                   .justify
                   .make()
             ],
-          ).box.color(whiteColor).make(),
+          )
+              .box
+              .color(whiteColor)
+              .padding(EdgeInsets.symmetric(horizontal: 10))
+              .make(),
         )
       ],
     );

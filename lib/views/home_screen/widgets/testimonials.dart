@@ -16,7 +16,7 @@ class Testimonials extends StatelessWidget {
           alignment: Alignment.bottomCenter,
           children: <Widget>[
             VxSwiper.builder(
-              aspectRatio: 9 / 15,
+              aspectRatio: 9 / 16,
               viewportFraction: 1.0,
               autoPlayAnimationDuration: const Duration(milliseconds: 500),
               autoPlayInterval: const Duration(seconds: 12),
@@ -85,7 +85,7 @@ class Testimonials extends StatelessWidget {
       ],
     )
         .box
-        .color(mehroonDark)
+        .color(mehroon)
         .padding(const EdgeInsets.symmetric(vertical: 20))
         .roundedLg
         .make();

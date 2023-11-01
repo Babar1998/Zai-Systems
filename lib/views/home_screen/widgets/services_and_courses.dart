@@ -27,14 +27,12 @@ Widget servicesAndCourses({
             title: "All Services",
             textColor: whiteColor,
             btnColor: mehroonColor,
-          ).box.margin(const EdgeInsets.symmetric(horizontal: 5)).make(),
+          ).box.margin(const EdgeInsets.symmetric(horizontal: 10)).make(),
         ],
       )
           .box
           .width(context.screenWidth)
           .padding(const EdgeInsets.all(20))
-          .roundedLg
-          .outerShadowLg
           .color(whiteColor)
           .make(),
 
@@ -59,15 +57,13 @@ Widget servicesAndCourses({
             title: "All Courses",
             textColor: whiteColor,
             btnColor: mehroonColor,
-          ).box.margin(const EdgeInsets.symmetric(horizontal: 5)).make(),
+          ).box.margin(const EdgeInsets.symmetric(horizontal: 10)).make(),
         ],
       )
           .box
           .color(whiteColor)
           .width(context.screenWidth)
           .padding(const EdgeInsets.all(20))
-          .roundedLg
-          .outerShadowLg
           .make(),
     ],
   ).box.width(context.screenWidth).white.make();
