@@ -6,8 +6,9 @@ Widget companyDetails() {
       boxShadow: [
         BoxShadow(
           color: Colors.grey,
-          blurRadius: 20,
-          offset: Offset(1, 3), // Shadow position
+          blurRadius: 14,
+
+          offset: Offset(1, 2), // Shadow position
         ),
       ],
     ),
@@ -20,12 +21,6 @@ Widget companyDetails() {
         10.heightBox,
         homeText.text.size(16).make(),
       ],
-    )
-        .box
-        .padding(const EdgeInsets.all(20))
-        .color(whiteColor)
-        .outerShadowLg
-        .roundedLg
-        .make(),
+    ).box.padding(const EdgeInsets.all(20)).color(whiteColor).roundedLg.make(),
   );
 }

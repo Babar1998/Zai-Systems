@@ -80,11 +80,7 @@ class CustomSwiper extends StatelessWidget {
                   .justify
                   .make()
             ],
-          )
-              .box
-              .color(whiteColor)
-              .padding(EdgeInsets.symmetric(horizontal: 10))
-              .make(),
+          ).box.color(whiteColor).make(),
         )
       ],
     );

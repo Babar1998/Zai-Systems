@@ -60,7 +60,7 @@ const sliderList = [
 
 const servicesList = [
   CardItem(webAndApp, webDetails, slider5),
-  CardItem(ecommerce, ecommerceDetails, slider4),
+  CardItem(ecommerce, ecommerceDetails, slider7),
   CardItem(supportTime, supportDetails, slider6),
 ];
 

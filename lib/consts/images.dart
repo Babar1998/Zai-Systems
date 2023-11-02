@@ -29,6 +29,7 @@ const slider3 = "assets/images/img2.jpg";
 const slider4 = "assets/images/PNG 3.png";
 const slider5 = "assets/images/PNG 02.png";
 const slider6 = "assets/images/png.png";
+const slider7 = "assets/images/add to cart.png";
 const cSlider1 = "assets/images/webapp.png";
 const cSlider2 = "assets/images/ecom.png";
 const cSlider3 = "assets/images/schedule.png";
