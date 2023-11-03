@@ -88,7 +88,6 @@ Widget memberCard({
       .size(double.infinity, 200)
       .margin(const EdgeInsets.symmetric(vertical: 5))
       .roundedLg
-      .outerShadowXl
       .make()
       .onTap(onCardClick);
 }

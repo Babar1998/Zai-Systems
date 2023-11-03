@@ -28,7 +28,11 @@ Widget companySummary({
           ).constrainedBox(BoxConstraints(minWidth: context.screenWidth / 2)),
           10.heightBox,
         ],
-      ).box.color(whiteColor).make(),
+      )
+          .box
+          .color(whiteColor)
+          .padding(const EdgeInsets.symmetric(horizontal: 5))
+          .make(),
       10.heightBox,
     ],
   ).box.color(whiteColor).make();

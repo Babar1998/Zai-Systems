@@ -2,12 +2,11 @@ import 'package:zaisystems/consts/imports.dart';
 
 Widget companyDetails() {
   return Container(
-    decoration: BoxDecoration(
+    decoration: const BoxDecoration(
       boxShadow: [
         BoxShadow(
           color: Colors.grey,
           blurRadius: 14,
-
           offset: Offset(1, 2), // Shadow position
         ),
       ],

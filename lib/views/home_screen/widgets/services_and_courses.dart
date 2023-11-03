@@ -32,7 +32,7 @@ Widget servicesAndCourses({
       )
           .box
           .width(context.screenWidth)
-          .padding(const EdgeInsets.symmetric(horizontal: 16))
+          .padding(const EdgeInsets.symmetric(horizontal: 5))
           .color(whiteColor)
           .make(),
 
@@ -63,7 +63,7 @@ Widget servicesAndCourses({
           .box
           .color(whiteColor)
           .width(context.screenWidth)
-          .padding(const EdgeInsets.symmetric(horizontal: 16))
+          .padding(const EdgeInsets.symmetric(horizontal: 5))
           .make(),
     ],
   ).box.width(context.screenWidth).white.make();
