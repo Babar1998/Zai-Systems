@@ -19,8 +19,6 @@ class MoreServices extends StatelessWidget {
             10.heightBox,
             const ServiceSwiper(),
             10.heightBox,
-            serviceHeading(title: moreServices),
-            10.heightBox,
             ListView.builder(
               physics: const NeverScrollableScrollPhysics(),
               itemCount: sdpServiceList.length,
@@ -34,7 +32,7 @@ class MoreServices extends StatelessWidget {
               },
             ),
           ],
-        ).box.padding(const EdgeInsets.only(bottom: 20)).make(),
+        ).box.rounded.padding(const EdgeInsets.only(bottom: 20)).make(),
       ),
     );
   }

@@ -30,6 +30,7 @@ class ContactScreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: getInTouch(),
             ),
+            10.heightBox,
             const ContactForm(),
             const Footer(),
           ],

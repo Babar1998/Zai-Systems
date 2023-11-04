@@ -90,7 +90,7 @@ Future<bool> confirmDialogue({
           ),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-          backgroundColor: lightGrey,
+          backgroundColor: whiteColor,
           content: Text(
             message,
             style: const TextStyle(
@@ -103,14 +103,14 @@ Future<bool> confirmDialogue({
                 Expanded(
                   child: TextButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: lightGolden,
+                      backgroundColor: lightGrey,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
                     ),
                     child: const Text(
                       'Cancel',
-                      style: TextStyle(color: mehroonColor),
+                      style: TextStyle(color: darkFontGrey),
                     ),
                     onPressed: () => Navigator.of(context).pop(false),
                   ),

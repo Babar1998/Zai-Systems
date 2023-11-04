@@ -13,7 +13,6 @@ Widget serviceHeading({
       .centered()
       .box
       .width(double.infinity)
-      .white
       .padding(const EdgeInsets.all(20))
       .make();
 }

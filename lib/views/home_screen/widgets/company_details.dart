@@ -9,7 +9,7 @@ Widget companyDetails() {
       boxShadow: [
         BoxShadow(
           color: Colors.grey,
-          blurRadius: 14,
+          blurRadius: 6,
           offset: Offset(1, 2),
         ),
       ],

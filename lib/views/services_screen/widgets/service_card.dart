@@ -28,7 +28,7 @@ Widget serviceCard({
   )
       .box
       .white
-      .roundedSM
+      .rounded
       .outerShadowSm
       .padding(const EdgeInsets.all(20))
       .margin(const EdgeInsets.symmetric(horizontal: 10, vertical: 5))

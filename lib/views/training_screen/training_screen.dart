@@ -9,7 +9,6 @@ class TrainingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        padding: const EdgeInsets.only(bottom: 20),
         width: double.infinity,
         child: Column(
           children: <Widget>[
@@ -22,26 +21,29 @@ class TrainingScreen extends StatelessWidget {
                 .centered()
                 .box
                 .width(double.infinity)
-                .white
                 .padding(const EdgeInsets.all(20))
                 .make(),
             5.heightBox,
-            ListView.builder(
-              physics: const NeverScrollableScrollPhysics(),
-              itemCount: courseList.length,
-              shrinkWrap: true,
-              itemBuilder: (context, index) {
-                final course = courseList[index];
-                return courseCard(
-                  item: course,
-                  onCardClick: () async => await courseDetailModel(
-                    cardIndex: index,
-                    context: context,
-                    course: course,
-                  ),
-                );
-              },
-            )
+            Column(
+              children: [
+                ListView.builder(
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: courseList.length,
+                  shrinkWrap: true,
+                  itemBuilder: (context, index) {
+                    final course = courseList[index];
+                    return courseCard(
+                      item: course,
+                      onCardClick: () async => await courseDetailModel(
+                        cardIndex: index,
+                        context: context,
+                        course: course,
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ).box.padding(const EdgeInsets.only(bottom: 20)).make(),
           ],
         ),
       ),

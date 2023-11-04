@@ -19,7 +19,6 @@ class ServicesScreen extends StatelessWidget {
               .centered()
               .box
               .width(double.infinity)
-              .white
               .padding(const EdgeInsets.all(20))
               .make(),
           10.heightBox,

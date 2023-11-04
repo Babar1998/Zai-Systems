@@ -163,8 +163,8 @@ class _LoginScreenState extends State<LoginScreen> {
               customButton(
                 onPress: () => Get.toNamed(AppRoutes.signUpScreen),
                 title: signup,
-                btnColor: lightGolden,
-                textColor: mehroonColor,
+                btnColor: lightGrey,
+                textColor: darkFontGrey,
               ).box.width(context.screenWidth * 0.6).make().centered(),
               5.heightBox,
               Align(

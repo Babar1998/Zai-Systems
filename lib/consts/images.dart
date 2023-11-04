@@ -100,8 +100,8 @@ const alishoaib = "assets/images/team/alishoaib.jpg";
 const ishfaq = "assets/images/team/ishfaq.jpeg";
 const mirfan = "assets/images/team/mirfan.jpeg";
 const shoaib = "assets/images/team/usmanshoaib.jpeg";
-const memoona = "";
-const hafeez = "";
+const memoona = "assets/images/team/memoona.jpg";
+const hafeez = "assets/images/team/hafeez.jpeg";
 
 // HCM 360
 const imgHcm360 = "assets/images/HCM 360.png";

@@ -27,32 +27,45 @@ void launchGmail({
 }
 
 Widget emailListBuilder() {
-  return Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
-      "Emails".text.size(heading).semiBold.make(),
-      10.heightBox,
-      ...List.generate(
-        contactList.length,
-        (index) => TextButton(
-          style: TextButton.styleFrom(
-            minimumSize: Size.zero,
-            padding: EdgeInsets.zero,
-            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-          ),
-          onPressed: () => launchGmail(mail: contactList[index].subText),
-          child: titleText(
-            title: contactList[index].title,
-            email: contactList[index].subText,
-          ),
+  return Container(
+    decoration: const BoxDecoration(
+      color: whiteColor,
+      borderRadius: BorderRadius.all(Radius.circular(20)),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.grey,
+          blurRadius: 6,
+          offset: Offset(1, 2),
         ),
-      )
-    ],
-  )
-      .box
-      .color(lightGrey)
-      .width(double.infinity)
-      .roundedLg
-      .padding(const EdgeInsets.all(20))
-      .make();
+      ],
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        "Emails".text.size(heading).semiBold.make(),
+        10.heightBox,
+        ...List.generate(
+          contactList.length,
+          (index) => TextButton(
+            style: TextButton.styleFrom(
+              minimumSize: Size.zero,
+              padding: EdgeInsets.zero,
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            onPressed: () => launchGmail(mail: contactList[index].subText),
+            child: titleText(
+              title: contactList[index].title,
+              email: contactList[index].subText,
+            ),
+          ),
+        )
+      ],
+    )
+        .box
+        .color(whiteColor)
+        .width(double.infinity)
+        .roundedLg
+        .padding(const EdgeInsets.all(20))
+        .make(),
+  );
 }

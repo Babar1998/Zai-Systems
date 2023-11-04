@@ -63,6 +63,7 @@ class ServiceSwiper extends StatelessWidget {
         .shadowSm
         .white
         .outerShadowSm
+        .rounded
         .margin(const EdgeInsets.symmetric(horizontal: 10))
         .make();
   }

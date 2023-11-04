@@ -23,8 +23,9 @@ Widget courseCard({
       .box
       .white
       .outerShadowSm
+      .rounded
       .padding(const EdgeInsets.all(20))
-      .margin(const EdgeInsets.symmetric(vertical: 5))
+      .margin(const EdgeInsets.symmetric(horizontal: 10, vertical: 5))
       .make()
       .onTap(onCardClick);
 }

@@ -26,48 +26,61 @@ void launchWhatsApp({
 }
 
 Widget getInTouch() {
-  return Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
-      "Get in touch".text.black.size(heading).semiBold.make(),
-      10.heightBox,
-      Row(
-        children: <Widget>[
-          const Icon(
-            Icons.phone,
-            color: mehroonColor,
-          ),
-          10.widthBox,
-          TextButton(
-            style: TextButton.styleFrom(
-              minimumSize: Size.zero,
-              padding: EdgeInsets.zero,
-              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+  return Container(
+    decoration: const BoxDecoration(
+      color: whiteColor,
+      borderRadius: BorderRadius.all(Radius.circular(20)),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.grey,
+          blurRadius: 6,
+          offset: Offset(1, 2),
+        ),
+      ],
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        "Get in touch".text.black.size(heading).semiBold.make(),
+        10.heightBox,
+        Row(
+          children: <Widget>[
+            const Icon(
+              Icons.phone,
+              color: mehroonColor,
             ),
-            onPressed: () => {
-              launchWhatsApp(ceoNumber: 03346906960),
-            },
-            child: "0334-6906960".text.black.fontFamily(semibold).make(),
-          ),
-        ],
-      ),
-      10.heightBox,
-      Row(
-        children: <Widget>[
-          const Icon(
-            Icons.location_city,
-            color: mehroonColor,
-          ),
-          10.widthBox,
-          "Lahore, Pakistan".text.black.fontFamily(semibold).make(),
-        ],
-      ),
-    ],
-  )
-      .box
-      .color(lightGrey)
-      .width(double.infinity)
-      .roundedLg
-      .padding(const EdgeInsets.all(20))
-      .make();
+            10.widthBox,
+            TextButton(
+              style: TextButton.styleFrom(
+                minimumSize: Size.zero,
+                padding: EdgeInsets.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              onPressed: () => {
+                launchWhatsApp(ceoNumber: 03346906960),
+              },
+              child: "0334-6906960".text.black.fontFamily(semibold).make(),
+            ),
+          ],
+        ),
+        10.heightBox,
+        Row(
+          children: <Widget>[
+            const Icon(
+              Icons.location_city,
+              color: mehroonColor,
+            ),
+            10.widthBox,
+            "Lahore, Pakistan".text.black.fontFamily(semibold).make(),
+          ],
+        ),
+      ],
+    )
+        .box
+        .color(whiteColor)
+        .width(double.infinity)
+        .roundedLg
+        .padding(const EdgeInsets.all(20))
+        .make(),
+  );
 }
