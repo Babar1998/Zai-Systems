@@ -40,18 +40,18 @@ const imgBanner2 = "assets/images/banner2.jpg";
 const imgBanner3 = "assets/images/banner3.jpg";
 
 // courses
-const imgGraphics = "assets/images/course/graphics.jpg";
-const imgJava = "assets/images/course/java.jpg";
-const imgJs = "assets/images/course/javascript.jpg";
+const imgGraphics = "assets/images/course/Graphic designing.png";
+const imgJava = "assets/images/course/Java.png";
+const imgJs = "assets/images/course/JS.png";
 const imgWordpress = "assets/images/course/Word Press.png";
 const imgAppDev = "assets/images/course/app development.png";
 const imgReact = "assets/images/course/React JS.png";
 const imgAspNet = "assets/images/course/ASP.net.png";
 const imgFrontend = "assets/images/course/Front-end development.png";
 const imgPython = "assets/images/course/Python.png";
-const imgNode = "assets/images/course/nodejs.jpg";
-const imgBlockChain = "assets/images/course/blockchain.jpg";
-const imgVue = "assets/images/course/vuejs.jpg";
+const imgNode = "assets/images/course/Node js.png";
+const imgBlockChain = "assets/images/course/Blockchain Development.png";
+const imgVue = "assets/images/course/Vue Js.png";
 
 // testimonials
 const chandra = "assets/images/testimonial/chandra.jpg";
@@ -59,6 +59,7 @@ const jason = "assets/images/testimonial/jason.jpg";
 const ryan = "assets/images/testimonial/ryan.jpg";
 
 // team members
+const placeholder = "assets/images/team/placeholder.png";
 const owais = 'assets/images/team/owais.jpeg';
 const rafey = 'assets/images/team/abdulrafay.jpg';
 const huzaifa = 'assets/images/team/huzaifa.jpeg';
@@ -99,6 +100,8 @@ const alishoaib = "assets/images/team/alishoaib.jpg";
 const ishfaq = "assets/images/team/ishfaq.jpeg";
 const mirfan = "assets/images/team/mirfan.jpeg";
 const shoaib = "assets/images/team/usmanshoaib.jpeg";
+const memoona = "";
+const hafeez = "";
 
 // HCM 360
 const imgHcm360 = "assets/images/HCM 360.png";

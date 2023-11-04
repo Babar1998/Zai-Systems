@@ -11,6 +11,7 @@ class ContactScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
+        color: whiteColor,
         padding: const EdgeInsets.only(top: 20),
         width: double.infinity,
         child: Column(
@@ -20,12 +21,19 @@ class ContactScreen extends StatelessWidget {
               height: 200,
             ),
             20.heightBox,
-            emailListBuilder(),
-            getInTouch(),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: emailListBuilder(),
+            ),
+            20.heightBox,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: getInTouch(),
+            ),
             const ContactForm(),
             const Footer(),
           ],
-        ),
+        ).box.white.make(),
       ),
     ).onTap(() {
       FocusScopeNode currentFocus = FocusScope.of(context);

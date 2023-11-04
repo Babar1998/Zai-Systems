@@ -65,9 +65,9 @@ Widget getInTouch() {
     ],
   )
       .box
-      .color(lightGolden)
+      .color(lightGrey)
       .width(double.infinity)
-      .outerShadow
+      .roundedLg
       .padding(const EdgeInsets.all(20))
       .make();
 }

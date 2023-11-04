@@ -248,7 +248,7 @@ const teamList = [
   Member(
     name: 'Memoona Fatima',
     position: 'Digital Marketing Intern',
-    image: shoaib,
+    image: placeholder,
     introduction: "Digital Marketing Intern at Zai Systems",
     description: "",
     profile: "https://www.linkedin.com/in/memoona-fatima-30619a253/",
@@ -256,7 +256,7 @@ const teamList = [
   Member(
     name: 'Hafeez Khan',
     position: 'SEO Intern',
-    image: shoaib,
+    image: placeholder,
     introduction: "SEO Intern at Zai Systems",
     description: "",
     profile: "https://www.linkedin.com/in/mhafeezkhan",

@@ -121,7 +121,7 @@ class _ContactFormState extends State<ContactForm> {
             btnColor: mehroonColor,
           )
         ],
-      ).box.padding(const EdgeInsets.all(40)).white.outerShadow.make(),
+      ).box.padding(const EdgeInsets.all(40)).white.make(),
     );
   }
 }
