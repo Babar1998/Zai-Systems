@@ -7,5 +7,12 @@ Widget impulseDescription() {
       10.heightBox,
       impulseHCMDesc.text.size(text).make(),
     ],
-  ).box.white.padding(const EdgeInsets.all(16)).make();
+  )
+      .box
+      .white
+      .padding(const EdgeInsets.all(10))
+      .margin(const EdgeInsets.symmetric(horizontal: 10, vertical: 5))
+      .rounded
+      .outerShadow
+      .make();
 }

@@ -27,7 +27,7 @@ class HCMScreen extends StatelessWidget {
           ),
           requestDemo(),
         ],
-      ),
+      ).box.padding(const EdgeInsets.only(bottom: 20)).make(),
     );
   }
 }
