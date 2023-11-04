@@ -5,13 +5,13 @@ class NavController extends GetxController {
   final _scrollPosition = 0.0.obs;
 
   void setPos(double val) {
-    final mapped = _mapValueTo01(val);
+    final mapped = _mapValue(val);
     if (position != mapped) {
       _scrollPosition.value = mapped;
     }
   }
 
-  double _mapValueTo01(double value) {
+  double _mapValue(double value) {
     value = value.clamp(0.0, 136.56529017857144);
     double mappedValue = value / 136.56529017857144;
     return mappedValue;
