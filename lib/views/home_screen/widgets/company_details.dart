@@ -2,12 +2,15 @@ import 'package:zaisystems/consts/imports.dart';
 
 Widget companyDetails() {
   return Container(
+    padding: const EdgeInsets.all(20),
     decoration: const BoxDecoration(
+      color: whiteColor,
+      borderRadius: BorderRadius.all(Radius.circular(20)),
       boxShadow: [
         BoxShadow(
           color: Colors.grey,
           blurRadius: 14,
-          offset: Offset(1, 2), // Shadow position
+          offset: Offset(1, 2),
         ),
       ],
     ),
@@ -20,6 +23,6 @@ Widget companyDetails() {
         10.heightBox,
         homeText.text.size(16).make(),
       ],
-    ).box.padding(const EdgeInsets.all(20)).color(whiteColor).roundedLg.make(),
+    ),
   );
 }

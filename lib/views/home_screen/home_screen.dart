@@ -15,10 +15,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<NavController>();
+    final scrollController = ScrollController();
+
+    scrollController.addListener(() {
+      controller.setPos(scrollController.position.pixels);
+    });
 
     return CustomScrollView(
+      controller: scrollController,
       slivers: <Widget>[
-        myAppBar(context),
+        Obx(() => myAppBar(context, controller.position)),
         SliverToBoxAdapter(
           child: Column(
             children: <Widget>[

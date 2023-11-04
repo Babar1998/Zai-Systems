@@ -1,6 +1,4 @@
 // ignore_for_file: unused_local_variable
-
-import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zaisystems/consts/imports.dart';
 
@@ -32,6 +30,7 @@ class _YoutubePlayerCustomSubtitleState
     }
   }
 
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [

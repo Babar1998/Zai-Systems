@@ -81,7 +81,7 @@ class FirebaseService {
     try {
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
       if (googleUser == null) {
-        throw Exception("Google sign-in failed or was canceled.");
+        throw "Google sign-in failed or was canceled.";
       }
 
       final GoogleSignInAuthentication googleAuth =

@@ -1,6 +1,6 @@
 import 'package:zaisystems/consts/imports.dart';
 
-SliverAppBar myAppBar(context) {
+SliverAppBar myAppBar(context, double pos) {
   return SliverAppBar(
     elevation: 10.0,
     expandedHeight: 200,
@@ -19,10 +19,11 @@ SliverAppBar myAppBar(context) {
         ),
       ),
       child: FlexibleSpaceBar(
-        // title: Padding(
-        //   padding: const EdgeInsets.only(left: 20),
-        //   child: appname.text.fontFamily(semibold).make(),
-        // ),
+        title: Opacity(
+          opacity: pos,
+          child: appname.text.fontFamily(semibold).make(),
+        ),
+        //
         background: Image.asset(imgZaiBanner1, fit: BoxFit.cover),
       ),
     ),

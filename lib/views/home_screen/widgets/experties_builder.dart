@@ -3,12 +3,15 @@ import 'package:zaisystems/widget_common/circular_indicator.dart';
 
 Widget expertiesBuilder() {
   return Container(
+    padding: const EdgeInsets.all(20),
     decoration: const BoxDecoration(
+      color: whiteColor,
+      borderRadius: BorderRadius.all(Radius.circular(20)),
       boxShadow: [
         BoxShadow(
           color: Colors.grey,
           blurRadius: 14,
-          offset: Offset(1, 2), // Shadow position
+          offset: Offset(1, 2),
         ),
       ],
     ),
@@ -32,12 +35,6 @@ Widget expertiesBuilder() {
           ),
         ),
       ],
-    )
-        .box
-        .padding(const EdgeInsets.all(20))
-        .color(whiteColor)
-        .outerShadowLg
-        .roundedLg
-        .make(),
+    ),
   );
 }

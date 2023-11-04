@@ -197,10 +197,12 @@ class _LoginScreenState extends State<LoginScreen> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         socialButton(onClick: () {}, icon: socialIconList[0]),
+        10.widthBox,
         socialButton(
           onClick: googleSignIn,
           icon: socialIconList[1],
         ),
+        10.widthBox,
         socialButton(onClick: () {}, icon: socialIconList[2]),
       ],
     );
