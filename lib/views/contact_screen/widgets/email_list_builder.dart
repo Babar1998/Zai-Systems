@@ -45,20 +45,16 @@ Widget emailListBuilder() {
         "Emails".text.size(heading).semiBold.make(),
         10.heightBox,
         ...List.generate(
-          contactList.length,
-          (index) => TextButton(
-            style: TextButton.styleFrom(
-              minimumSize: Size.zero,
-              padding: EdgeInsets.zero,
-              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-            ),
-            onPressed: () => launchGmail(mail: contactList[index].subText),
-            child: titleText(
-              title: contactList[index].title,
-              email: contactList[index].subText,
-            ),
-          ),
-        )
+            contactList.length,
+            (index) => GestureDetector(
+                  onTap: () {
+                    launchGmail(mail: contactList[index].subText);
+                  },
+                  child: titleText(
+                    title: contactList[index].title,
+                    email: contactList[index].subText,
+                  ),
+                ))
       ],
     )
         .box

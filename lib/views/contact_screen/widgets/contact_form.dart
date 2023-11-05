@@ -2,7 +2,7 @@ import 'package:flutter_email_sender/flutter_email_sender.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/widget_common/custom_button.dart';
-import 'package:zaisystems/widget_common/custom_textfield.dart';
+import 'package:zaisystems/views/contact_screen/widgets/contact_textfield.dart';
 
 class ContactForm extends StatefulWidget {
   const ContactForm({super.key});
@@ -81,35 +81,38 @@ class _ContactFormState extends State<ContactForm> {
               .make(),
           20.heightBox,
           customTextField(
+            maxLines: 1,
             hint: name,
             prefixIcon: Icons.person,
             controller: _nameController,
           ),
           20.heightBox,
           customTextField(
+            maxLines: 1,
             hint: email,
             prefixIcon: Icons.email,
             controller: _emailController,
           ),
           20.heightBox,
           customTextField(
+            maxLines: 1,
             hint: "Phone No",
             prefixIcon: Icons.contact_page,
             controller: _phoneNumberController,
           ),
           20.heightBox,
           customTextField(
+            maxLines: 1,
             hint: "Subject",
             prefixIcon: Icons.subject,
             controller: _subjectController,
-            maxLines: 1,
           ),
           20.heightBox,
           customTextField(
+            minLines: 2,
             hint: "Your message",
             prefixIcon: Icons.message,
             controller: _messageController,
-            maxLines: null,
           ),
           20.heightBox,
           customButton(

@@ -1,7 +1,7 @@
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/widget_common/custom_button.dart';
-import 'package:zaisystems/widget_common/demo_textfield.dart';
+import 'package:zaisystems/views/demo_screen/widgets/demo_textfield.dart';
 import 'package:zaisystems/widget_common/my_appbar.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
 
@@ -112,6 +112,7 @@ class _DemoScreenState extends State<DemoScreen> {
               ),
               20.heightBox,
               customTextField(
+                  minLines: 2,
                   hint: "Demo Details",
                   prefixIcon: Icons.message,
                   controller: _bodyController),
