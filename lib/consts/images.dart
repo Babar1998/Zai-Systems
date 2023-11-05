@@ -52,6 +52,7 @@ const imgPython = "assets/images/course/Python.png";
 const imgNode = "assets/images/course/Node js.png";
 const imgBlockChain = "assets/images/course/Blockchain Development.png";
 const imgVue = "assets/images/course/Vue Js.png";
+const imgAng = "assets/images/course/angular.png";
 
 // testimonials
 const chandra = "assets/images/testimonial/chandra.jpg";

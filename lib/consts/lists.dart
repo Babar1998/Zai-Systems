@@ -76,6 +76,7 @@ const courseList = [
   CardItem(python, pythonDesc, imgPython),
   CardItem(reactJs, reactDesc, imgReact),
   CardItem(vueJs, vueDesc, imgVue),
+  CardItem(angular, angularDesc, imgAng),
   CardItem(wordpress, wordpressDesc, imgWordpress),
 ];
 
