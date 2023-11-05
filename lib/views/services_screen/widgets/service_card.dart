@@ -23,7 +23,7 @@ Widget serviceCard({
           .fontFamily(semibold)
           .make(),
       10.heightBox,
-      item.subText.text.size(text).make(),
+      item.subText.text.size(text).justify.make(),
     ],
   )
       .box
