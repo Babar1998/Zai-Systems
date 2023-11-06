@@ -64,6 +64,8 @@ const appBarList = [
   CardItem("", "", seminar3),
   CardItem("", "", seminar4),
   CardItem("", "", seminar5),
+  CardItem("", "", seminar6),
+  CardItem("", "", seminar7),
 ];
 
 const servicesList = [

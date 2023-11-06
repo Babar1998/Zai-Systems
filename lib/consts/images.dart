@@ -43,6 +43,8 @@ const seminar2 = "assets/images/seminar2.jpeg";
 const seminar3 = "assets/images/seminar3.jpeg";
 const seminar4 = "assets/images/seminar4.png";
 const seminar5 = "assets/images/seminar5.png";
+const seminar6 = "assets/images/seminar6.jpeg";
+const seminar7 = "assets/images/seminar7.jpeg";
 
 // courses
 const imgGraphics = "assets/images/course/Graphic designing.png";
