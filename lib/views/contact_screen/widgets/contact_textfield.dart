@@ -7,7 +7,7 @@ Widget customTextField({
   IconData? prefixIcon,
   bool obsecure = false,
   int? minLines = 1,
-  int? maxLines = 2,
+  int? maxLines = 6,
   Function()? onPress,
   Function(String)? onChange,
   bool? enabled,

@@ -2,6 +2,7 @@ import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/widget_common/input_decoration.dart';
 
 Widget customTextField({
+  textAlignVertical = TextAlignVertical.top,
   required String hint,
   IconData? suffixIcon,
   IconData? prefixIcon,
@@ -14,6 +15,7 @@ Widget customTextField({
   TextEditingController? controller,
 }) {
   return TextFormField(
+    textAlignVertical: TextAlignVertical.top,
     onChanged: onChange,
     enabled: enabled,
     obscureText: obsecure,

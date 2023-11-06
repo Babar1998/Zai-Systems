@@ -1,4 +1,5 @@
 import 'package:zaisystems/consts/imports.dart';
+import 'package:zaisystems/views/home_screen/widgets/appbar_swiper.dart';
 
 SliverAppBar myAppBar(context, double pos) {
   return SliverAppBar(
@@ -24,7 +25,11 @@ SliverAppBar myAppBar(context, double pos) {
           child: appname.text.fontFamily(semibold).make(),
         ),
         //
-        background: Image.asset(imgZaiBanner1, fit: BoxFit.cover),
+        background: const CustomSwiper(
+          sliderList: appBarList,
+          duration: 8,
+          sliderNo: 0,
+        ).box.make(),
       ),
     ),
   );

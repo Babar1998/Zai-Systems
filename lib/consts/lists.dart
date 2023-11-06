@@ -58,6 +58,14 @@ const sliderList = [
   ),
 ];
 
+const appBarList = [
+  CardItem("", "", seminar1),
+  CardItem("", "", seminar2),
+  CardItem("", "", seminar3),
+  CardItem("", "", seminar4),
+  CardItem("", "", seminar5),
+];
+
 const servicesList = [
   CardItem(webAndApp, webDetails, slider5),
   CardItem(ecommerce, ecommerceDetails, slider7),

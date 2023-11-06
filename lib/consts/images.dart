@@ -38,6 +38,11 @@ const imgContact = "assets/images/contact.png";
 const imgBanner = "assets/images/banner.jpg";
 const imgBanner2 = "assets/images/banner2.jpg";
 const imgBanner3 = "assets/images/banner3.jpg";
+const seminar1 = "assets/images/seminar1.jpeg";
+const seminar2 = "assets/images/seminar2.jpeg";
+const seminar3 = "assets/images/seminar3.jpeg";
+const seminar4 = "assets/images/seminar4.png";
+const seminar5 = "assets/images/seminar5.png";
 
 // courses
 const imgGraphics = "assets/images/course/Graphic designing.png";

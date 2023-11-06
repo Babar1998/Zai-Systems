@@ -109,7 +109,7 @@ class _ContactFormState extends State<ContactForm> {
           ),
           20.heightBox,
           customTextField(
-            minLines: 2,
+            minLines: 6,
             hint: "Your message",
             prefixIcon: Icons.message,
             controller: _messageController,

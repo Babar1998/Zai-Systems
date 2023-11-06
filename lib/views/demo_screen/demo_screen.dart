@@ -112,7 +112,8 @@ class _DemoScreenState extends State<DemoScreen> {
               ),
               20.heightBox,
               customTextField(
-                  minLines: 2,
+                  textAlignVertical: TextAlignVertical.top,
+                  minLines: 6,
                   hint: "Demo Details",
                   prefixIcon: Icons.message,
                   controller: _bodyController),
