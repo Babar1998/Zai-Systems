@@ -1,15 +1,14 @@
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/controllers/slider_controller.dart';
 import 'package:zaisystems/models/card_item.dart';
-import 'package:zaisystems/widget_common/dot_indicator.dart';
 
 class CustomSwiper extends StatelessWidget {
-  final List<CardItem> sliderList;
+  final List<CardItem> appBarList;
   final int duration;
   final int sliderNo;
   const CustomSwiper({
     super.key,
-    required this.sliderList,
+    required this.appBarList,
     required this.duration,
     required this.sliderNo,
   });
@@ -35,9 +34,9 @@ class CustomSwiper extends StatelessWidget {
               enlargeCenterPage: true,
               onPageChanged: (index) =>
                   controller.setSliderIndex(sliderNo, index),
-              itemCount: sliderList.length,
+              itemCount: appBarList.length,
               itemBuilder: (context, index) => Image.asset(
-                sliderList[index].image,
+                appBarList[index].image,
                 fit: BoxFit.fill,
               )
                   .box

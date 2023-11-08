@@ -25,11 +25,12 @@ SliverAppBar myAppBar(context, double pos) {
           child: appname.text.fontFamily(semibold).make(),
         ),
         //
-        background: const CustomSwiper(
-          sliderList: appBarList,
-          duration: 8,
-          sliderNo: 0,
-        ).box.make(),
+        background: Image.asset(imgZaiBanner1, fit: BoxFit.cover),
+        // background: const CustomSwiper(
+        //   appBarList: appBarList,
+        //   duration: 8,
+        //   sliderNo: 0,
+        // ).box.make(),
       ),
     ),
   );
