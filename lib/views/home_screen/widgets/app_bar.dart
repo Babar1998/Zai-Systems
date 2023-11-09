@@ -1,5 +1,6 @@
 import 'package:zaisystems/consts/imports.dart';
 import 'package:zaisystems/views/home_screen/widgets/appbar_swiper.dart';
+import 'package:zaisystems/views/home_screen/widgets/custom_swiper.dart';
 
 SliverAppBar myAppBar(context, double pos) {
   return SliverAppBar(
